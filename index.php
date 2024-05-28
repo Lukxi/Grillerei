@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WI-Project e.V.</title>
+    <title>Grillerei</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="footer.css">
@@ -15,8 +15,8 @@
 <body>
 <?php include('includes/header.php'); ?>
         <div class="text-box">
-            <h1>Herzlich Willkommen bei WI-Project e. V.!</h1>
-            <p>Verein der Wirtschaftsinformatiker<br>an der Technischen Hochschule Deggendorf</p>
+            <h1>Grillerei</h1>
+            <p>mit Herz und Glut!</p>
             <a href="#member" class="hero-btn">Jetzt Mitglied werden!</a>
         </div>
     </section>
