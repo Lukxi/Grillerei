@@ -15,7 +15,7 @@
         <br>
         <h5>Ansprechpartner:</h5>
         <ul>
-            <li>Lukas Nowak - 1. Vorstand</li>
+            <li>Lukas Nowak - 1. Vorstand lol</li>
             <li>Franziska Michl - 2. Vorstand</li>
             <li>Andreas Kergel - 3. Vorstand (Kassier)</li>
         </ul>
