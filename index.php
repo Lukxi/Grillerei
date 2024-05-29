@@ -17,7 +17,7 @@
         <div class="text-box">
             <h1>Grillerei</h1>
             <p>mit Herz und Glut!</p>
-            <a href="#member" class="hero-btn">Jetzt Mitglied werden!</a>
+            <a href="#member" class="hero-btn">Jetzt Mitd werden!</a>
         </div>
     </section>
 
