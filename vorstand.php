@@ -33,7 +33,7 @@
             </div>
             <div class="about-col" id="vorstand-list">
                 <ul>
-                    <li>1. Vorstand: Lukas Nowak</li>
+                    <li>1. Vorstand: Lukas Nowak lol</li>
                     <li>2. Vorstand: Franziska Michl</li>
                     <li>3. Vorstand (Kassier): Andreas Kergel</li><br>
                     <li>1. Schriftführer: Julian Wagner</li>
