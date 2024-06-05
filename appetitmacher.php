@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WI-Project e.V.</title>
-    <link rel="stylesheet" href="apetitmacher.css">
+    <link rel="stylesheet" href="appetitmacher.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="footer.css">
 
@@ -38,13 +38,22 @@
                 jQuery(document).ready(function () {
               jQuery("#nanogallery2").nanogallery2({
                 thumbnailWidth:   'auto',
-                thumbnailHeight:  150,
+                thumbnailHeight:  250,
                 thumbnailBorderVertical: 0,
                 thumbnailBorderHorizontal: 0,
+                thumbnailGutterWidth: 5,
+                thumbnailGutterHeight: 5,
+
                 thumbnailLabel: {
                     "position": "overImageOnBottom"
                 },
-                thumbnailAlignment: "center",
+                gallerySorting: "titleasc",
+                galleryFilterTags: true,
+                navigationFontSize: '1.2em',
+
+                thumbnailAlignment: 'right',
+                galleryDisplayTransition: 'slideUp',
+                galleryDisplayTransitionDuration:  500,
                 thumbnailOpenImage: true,
                 kind:             'nano_photos_provider2',
                 dataProvider:     'http://localhost/grillerei/nano_photos_provider2/nano_photos_provider2.php',
