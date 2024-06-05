@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WI-Project e.V.</title>
+    <link rel="stylesheet" href="apetitmacher.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- nanogallery2 -->
+    <link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://unpkg.com/nanogallery2/dist/jquery.nanogallery2.min.js"></script>
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <?php include('includes/header.php'); ?>
+        <div class="text-box">
+            <h1>Apetitmacher</h1>
+            <p>Sammle leckere Eindrücke</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <p>Hier Bilder</p>
+        
+        <div id="nanogallery2">gallery_made_with_nanogallery2</div>
+
+            <script>
+                jQuery(document).ready(function () {
+              jQuery("#nanogallery2").nanogallery2({
+                thumbnailWidth:   'auto',
+                thumbnailHeight:  150,
+                thumbnailBorderVertical: 0,
+                thumbnailBorderHorizontal: 0,
+                thumbnailLabel: {
+                    "position": "overImageOnBottom"
+                },
+                thumbnailAlignment: "center",
+                thumbnailOpenImage: true,
+                kind:             'nano_photos_provider2',
+                dataProvider:     'http://localhost/grillerei/nano_photos_provider2/nano_photos_provider2.php',
+                locationHash:     false
+
+              });
+            });
+            </script>
+
+        </section>
+    
+        
+
+    <?php include('includes/footer.php'); ?>
+            
+
+    <script>
+
+        const toggleBtn= document.querySelector('.toggle_btn');
+        const toggleBtnIcon= document.querySelector('.toggle_btn i');
+        const dropdown= document.querySelector('.dropdown');
+
+        toggleBtn.onclick = function(){
+            dropdown.classList.toggle('open');
+            const isOpen = dropdown.classList.contains('open');
+
+            toggleBtnIcon.classList = isOpen 
+            ? 'fa-solid fa-xmark' 
+            : 'fa-solid fa-bars'
+        }
+
+        
+
+
+    </script>
+</body>
+</html>

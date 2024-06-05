@@ -16,8 +16,8 @@
             <div class="f-col">
                 <h3>Links <div class="underline"><span></span></div></h3>
                     <ul>                        
-                        <li><a href="impressum.html" id="impressum">Impressum</a></li>
-                        <li><a href="impressum.html#daten" id="impressum">Datenschutz</a></li>
+                        <li><a href="impressum.php" id="impressum">Impressum</a></li>
+                        <li><a href="impressum.php#daten" id="impressum">Datenschutz</a></li>
 
                     </ul>
                 
