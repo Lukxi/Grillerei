@@ -9,7 +9,7 @@
                     <li><a href="appetitmacher.php">Appetitmacher</a></li>
                     <li><a href ="team.php">Team</a></li>
                 </ul>
-                <a id="n-btn" href="index.php#member">Mitglied werden!</a>
+                <a id="n-btn" href="index.php#kontakt">Kontakt</a>
             </div>
             <div class="toggle_btn"> 
                 <i class="fa-solid fa-bars"></i>
@@ -21,7 +21,7 @@
             <li><a href="index.php#about">Über uns</a></li>
             <li><a href="appetitmacher.php">Appetitmacher</a></li>
             <li><a href ="team.php">Team</a></li>
-            <li><a id="n-btn" href="index.php#member">Mitglied werden!</a></li>
+            <li><a id="n-btn" href="index.php#kontakt">Kontakt</a></li>
 
         </div>
         
