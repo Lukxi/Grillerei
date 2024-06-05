@@ -51,6 +51,8 @@
                 galleryFilterTags: true,
                 navigationFontSize: '1.2em',
 
+                thumbnailHoverEffect2: "labelAppear75",
+
                 thumbnailAlignment: 'right',
                 galleryDisplayTransition: 'slideUp',
                 galleryDisplayTransitionDuration:  500,

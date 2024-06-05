@@ -19,7 +19,7 @@
         <div class="dropdown">
             <li><a href="index.php">Startseite</a></li>
             <li><a href="index.php#about">Über uns</a></li>
-            <li><a href="apetitmacher.php">Appetitmacher</a></li>
+            <li><a href="appetitmacher.php">Appetitmacher</a></li>
             <li><a href ="team.php">Team</a></li>
             <li><a id="n-btn" href="index.php#member">Mitglied werden!</a></li>
 
