@@ -33,7 +33,9 @@
     </section>
 
     <section id="about" class="about">
-        <p>Hier Bilder</p>
+        <p>Foto anklicken um es genauer zu betrachten</p>
+        <p>Hier kannst du auch einen Filter auswählen</p>
+
         
         <div id="nanogallery2">gallery_made_with_nanogallery2</div>
 
