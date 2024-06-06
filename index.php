@@ -24,7 +24,7 @@
 
 <?php include('includes/header.php'); ?>
         <div class="text-box">
-            <h1>Grillerei mit Herz und Glut Test</h1>
+            <h1>Grillerei mit Herz und Glut</h1>
             <p></p>
             <a href="#member" class="hero-btn">Jetzt Mitd werden!</a>
         </div>
