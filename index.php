@@ -18,9 +18,13 @@
 
 </head>
 <body>
+    <div class="fade-Logo" id="fadeLogo" >
+        <img src="img/logo.png">
+    </div>
+
 <?php include('includes/header.php'); ?>
         <div class="text-box">
-            <h1>Grillerei mit Herz und Glut</h1>
+            <h1>Grillerei mit Herz und Glut Test</h1>
             <p></p>
             <a href="#member" class="hero-btn">Jetzt Mitd werden!</a>
         </div>
@@ -78,7 +82,20 @@
             : 'fa-solid fa-bars'
         }
 
-        
+        setTimeout(() => {
+            const element = document.getElementById('fadeLogo');
+            let opacity = 1;
+            const fadeEffect = setInterval(() => {
+                if (opacity > 0) {
+                    opacity -= 0.1;
+                    element.style.opacity = opacity;
+                } else {
+                    clearInterval(fadeEffect);
+                    element.style.display = 'none';
+                }
+            }, 30);
+            //document.getElementById('centerText').style.display = 'none';
+        }, 1000);
 
 
     </script>
