@@ -15,6 +15,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 <body>
@@ -64,6 +65,26 @@
         <a href="res/Beitrittserklärung.pdf" target="_blank" rel="noreferrer noopener" class="member-btn">Zur Beitrittserklärung</a>
     </section>
 
+    <div class="slideshow-container" id="slideshow-container">
+        <div class="mySlides fadeSlider">
+            <img class="slideImg" src="KarusellImg/Karusell1.jpg">
+        </div>
+        <div class="mySlides fadeSlider" >
+            <img class="slideImg" src="KarusellImg/Karusell2.jpg">
+        </div>
+        <div class="mySlides fadeSlider" >
+            <img class="slideImg" src="KarusellImg/Karusell3.jpg">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="sliderDots" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
     <?php include('includes/footer.php'); ?>
 
 
@@ -82,6 +103,7 @@
             : 'fa-solid fa-bars'
         }
 
+        //Logo fadeout
         setTimeout(() => {
             const element = document.getElementById('fadeLogo');
             let opacity = 1;
@@ -96,6 +118,117 @@
             }, 30);
             //document.getElementById('centerText').style.display = 'none';
         }, 1000);
+
+        //Fotokarusell
+        var slideIndex = 0;
+        var autoSlide = true;
+        showSlidesAuto();
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+            autoSlide = false;
+        }
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+            autoSlide = false;
+        }
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+        // Auto Slide
+        function showSlidesAuto() {
+            if (!autoSlide) {
+                autoSlide = true;
+                setTimeout(showSlidesAuto, 5000);
+                return;
+            }
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            if (autoSlide) {
+                setTimeout(showSlidesAuto, 5000);
+            }
+        }
+
+        //slideshow ausrichten
+        document.addEventListener('DOMContentLoaded', function() {
+            const slideshowContainer = document.getElementById('slideshow-container');
+
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.95
+            };
+
+            /*const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        console.log("intersecting");
+                        //slideshowContainer.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' });
+                        const rect = slideshowContainer.getBoundingClientRect();
+                        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                        window.scrollTo({
+                            top: rect.top + scrollTop - (window.innerHeight / 2) + (rect.height / 2),
+                            behavior: "smooth"
+                        });
+                    }
+                });
+            }, observerOptions);*/
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const rect = slideshowContainer.getBoundingClientRect();
+                        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                        const targetPosition = rect.top + scrollTop - (window.innerHeight / 2) + (rect.height / 2);
+                        const startPosition = window.pageYOffset;
+                        const distance = targetPosition - startPosition;
+                        let startTime = null;
+
+                        const animation = currentTime => {
+                            if (startTime === null) startTime = currentTime;
+                            const timeElapsed = currentTime - startTime;
+                            const run = ease(timeElapsed, startPosition, distance, 100);
+                            window.scrollTo(0, run);
+                            if (timeElapsed < 100) requestAnimationFrame(animation);
+                        };
+
+                        const ease = (t, b, c, d) => {
+                            t /= d / 2;
+                            if (t < 1) return c / 2 * t * t + b;
+                            t--;
+                            return -c / 2 * (t * (t - 2) - 1) + b;
+                        };
+
+                        requestAnimationFrame(animation);
+                    }
+                });
+            }, observerOptions);
+
+            observer.observe(slideshowContainer);
+        });
+
 
 
     </script>
