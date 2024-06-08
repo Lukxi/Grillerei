@@ -93,7 +93,6 @@ h1{
     display: flex;
     justify-content: space-between;
 }
-
 .fade-Logo {
     position: fixed;
     bottom: 0px;
@@ -105,14 +104,7 @@ h1{
     justify-content: center;
     align-items: center;
     text-align: center;
-    z-index: 2;
-}
-.fade-Logo img {
-    height: 50vh;
-    width: 50%;
-    top: 25vh;
-    display: block;
-    margin: auto;
+    z-index: 9;
 }
 .mySlides{
     width: 100%;
@@ -190,16 +182,16 @@ h1{
     animation-duration: 1.5s;
 }
 @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {opacity: .4;}
+    to {opacity: 1;}
 }
 @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {opacity: .4;}
+    to {opacity: 1;}
 }
 @media only screen and (max-width: 300px) {
     .prev, .next, .text {
-        font-size: 11px
+        font-size: 11px;
     }
 
     .dot {
@@ -209,11 +201,10 @@ h1{
 
     @media only screen and (max-width: 500px) {
         .prev, .next, .text {
-            font-size: 14px
+            font-size: 14px;
         }
     }
 }
-
 .about-col{
     flex-basis: 32%;
     border-radius: 10px;
@@ -225,9 +216,12 @@ h1{
     width: 100%;
     display: block;
 }
+
+
 .about-col:hover{
     box-shadow: 0 0 20px 0px #777;
 }
+
 .layer{
     background: transparent;
     height: 100%;
@@ -240,6 +234,7 @@ h1{
 .layer:hover{
     background: #44434385;
 }
+
 .layer h3{
     width: 100%;
     font-weight: 400;
