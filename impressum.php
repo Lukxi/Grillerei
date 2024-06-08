@@ -24,18 +24,18 @@
         
         <h4>Angaben gemäß § 5 TMG:</h4>
         <p>Franz Stumbeck</p>
-        <p>Adresse</p>
+        <p>Adresse: Firmenadresse/Privatadresse</p>
         <br>
-        <p>E-Mail: <a id="red" href=".de">franz stumbeck</a></p>
+        <p></a></p>
         <br>
         <h5>Ansprechpartner:</h5>
         <ul>
             <li>Franz Stumbeck</li>
         </ul>
         <br>
-        <h5>Telefon:</h5>
-        <p>138989898</p>
-        <p>E-Mail: franz stumbeck</p>
+        <h5>Kontaktdaten:</h5>
+        <p>Telefon: +49 175 1976184</p>
+        <p>E-Mail: franzstumbeck@gmail.com</p>
         <br>
         <h5>Haftung für Inhalte</h5>
         <p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</p>
