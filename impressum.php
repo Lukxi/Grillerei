@@ -1,19 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WI-Project e.V.</title>
-    <link rel="stylesheet" href="impressum.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="footer.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-<body>
 <?php include('includes/header.php'); ?>
         <div class="text-box">
             <h1>Impressum</h1>
@@ -23,22 +7,20 @@
 
     <section id="about" class="about">
         
-        <h4>Für den Inhalt dieses Online-Angebots ist verantwortlich:</h4>
-        <p>WI-Project e.V. - Verein der Wirtschaftsinformatiker an der Technischen Hochschule Deggendorf</p>
-        <p>Dieter-Görlitz-Platz 1 94469 Deggendorf</p>
+        <h4>Angaben gemäß § 5 TMG:</h4>
+        <p>Franz Stumbeck</p>
+        <p>Adresse</p>
         <br>
-        <p>E-Mail: <a id="red" href="mailto:wiproject@th-deg.de">wiproject@th-deg.de</a></p>
+        <p>E-Mail: <a id="red" href=".de">franz stumbeck</a></p>
         <br>
         <h5>Ansprechpartner:</h5>
         <ul>
-            <li>Lukas Nowak - 1. Vorstand lol</li>
-            <li>Franziska Michl - 2. Vorstand</li>
-            <li>Andreas Kergel - 3. Vorstand (Kassier)</li>
+            <li>Franz Stumbeck</li>
         </ul>
         <br>
-        <h5>Registereintrag</h5>
-        <p>Eingetragen im Vereinsregister Deggendorf</p>
-        <p>VR-Nr.: 0770</p>
+        <h5>Telefon:</h5>
+        <p>138989898</p>
+        <p>E-Mail: franz stumbeck</p>
         <br>
         <h5>Haftung für Inhalte</h5>
         <p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</p>
