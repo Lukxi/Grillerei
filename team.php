@@ -15,34 +15,35 @@
 <body>
     <?php include('includes/header.php'); ?>
         <div class="text-box">
-            <h1>Die Vorstandschaft</h1>
-            <p>Hier erfährst du alles rund um die Vorstände<br>und die letzte Jahreshauptversammlung</p>
+            <h1>Mein Team</h1>
+            <p><br></p>
         </div>
     </section>
 
     <section id="about" class="about">
-        <h1>Die aktuelle Vorstandschaft</h1>
+        <h1></h1>
         <div class="row">
             <div class="about-col" id="about-col">
-                <h4>Liebe Mitglieder,</h4><br>
-                <p>am 12.08.2023 fand die Jahreshauptversammlung unseres Vereins statt. Nachdem die alte Vorstandschaft nach einem erfolgreichen Jahr entlastet wurde, fanden daraufhin die Neuwahlen statt!</p>
+                <h4></h4><br>
+                <p></p>
        
-                <p>Wir blicken gemeinsam in ein weiteres erfolgreiches Jahr unseres Vereins WI-Project e.V.!</p><br>
-                <p>Wir sehen uns auf einer unserer vielen Veranstaltungen.</p><br>
-                <p>Eure Vorstandschaft</p>
+                <p></p><br>
+                <p></p><br>
+                <p></p>
             </div>
             <div class="about-col" id="vorstand-list">
                 <ul>
-                    <li>1. Vorstand: Lukas Nowak lol</li>
-                    <li>2. Vorstand: Franziska Michl</li>
-                    <li>3. Vorstand (Kassier): Andreas Kergel</li><br>
-                    <li>1. Schriftführer: Julian Wagner</li>
-                    <li>2. Schriftführer: Stefan Schreiner</li><br>
-                    <li>Kassenprüfer: Maximilian Dandorfer</li>
-                    <li>Kassenprüfer: Julia Bauer</li><br>
-                    <li>Beisitzer: Florian Hartl</li>
-                    <li>Beisitzer: Theresa Müller</li>
-                    <li>Beisitzer: Alexander Pietruska</li>
+                    <li>Herzlich Willkommen!</li><br>
+
+        <li>Freuen Sie sich auf ein gemütliches Beisammensein unter Grillfreunden, wo der Duft von frisch Gegrilltem in der Luft liegt und die Glut sanft knistert.
+            <li>Unser Grillmeister, Franz Stumbeck, lädt Sie ein, traditionelle Grillkunst hautnah zu erleben.</li><br>
+
+            <li>Was Sie erwartet:</li><br>
+
+            <li>Authentische Grillvorführungen: Entdecken Sie, wie mit Hingabe und handwerklichem Geschick klassische Grillgerichte zubereitet werden.</li><br>
+            <li>Interaktive Grillkurse: Erfahren Sie praktische Tipps und Tricks, um Ihr Grillgut zu Hause perfektionieren zu können.</li><br>
+            <li>Regionale Speisen: Genießen Sie eine Auswahl an herzhaften Klassikern und regionalen Favoriten.</li><br>
+            <li>Familiäre Atmosphäre: Treffen Sie Gleichgesinnte und tauschen Sie sich aus über alles, was das Grillerherz begehrt.</li><br>
                 </ul>
             </div>
         </div>
