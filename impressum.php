@@ -24,7 +24,7 @@
         
         <h4>Angaben gemäß § 5 TMG:</h4>
         <p>Franz Stumbeck</p>
-        <p>Adresse: </p>
+        <p>Adresse: Etzenhausen 12</p>
         <br>
         <p></a></p>
         <br>
