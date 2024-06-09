@@ -54,8 +54,8 @@
         <p>Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>
         <h5>Verwendung von Sozialen Medien:</h5>
         <p> Dieses Impressum gilt auch für Auftritte in den sozial Medien, außerdem werden dadurch deren Nutzungsbedigungen geltend gemacht.</p>
-        <p>Facebook: <a href="https://de-de.facebook.com/legal/terms#:~:text=Du%20darfst%20Benutzernamen%20oder%20Passw%C3%B6rter,in%20den%20Plattform%2DNutzungsbedingungen%20festgelegt">Facebook-Link</a></p>
-        <p>Instagram: <a href="https://help.instagram.com/581066165581870">Instagram-Link</a></p>
+        <p>Facebook: <a href="https://de-de.facebook.com/legal/terms#:~:text=Du%20darfst%20Benutzernamen%20oder%20Passw%C3%B6rter,in%20den%20Plattform%2DNutzungsbedingungen%20festgelegt">Facebook-Nutzungsbedingungen</a></p>
+        <p>Instagram: <a href="https://help.instagram.com/581066165581870">Instagram-Nutzungsbedinungen</a></p>
     </section>
 
 
