@@ -25,10 +25,7 @@
         <div class="row">
             <div class="about-col" id="about-col">
                 <h4></h4><br>
-                <p><img src= "https://pixabay.com/de/photos/team-zusammenarbeit-zusammen-3393037/"></p>
-                <p></p><br>
-                <p></p><br>
-                <p></p>
+                <img src= "https://pixabay.com/de/photos/team-zusammenarbeit-zusammen-3393037/">
             </div>
             <div class="about-col" id="vorstand-list">
                 <ul>
