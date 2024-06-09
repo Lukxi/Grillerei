@@ -16,7 +16,7 @@
     <?php include('includes/header.php'); ?>
         <div class="text-box">
             <h1>Mein Team</h1>
-            <p><br></p>
+            <p>Infos und Vorstellung<br></p>
         </div>
     </section>
 
@@ -25,8 +25,7 @@
         <div class="row">
             <div class="about-col" id="about-col">
                 <h4></h4><br>
-                <p></p>
-       
+                <p><img src="Foto_Grillerei_Team_Bsp.jpg"></p>
                 <p></p><br>
                 <p></p><br>
                 <p></p>
