@@ -19,7 +19,7 @@
 </head>
 <body>
     <div class="fade-Logo" id="fadeLogo" >
-        <img src="img/logo.png">
+        <img src="img/illerLogo.png">
     </div>
 
 <?php include('includes/header.php'); ?>
@@ -30,19 +30,27 @@
         </div>
     </section>
 
-    <section id="about" class="about">
+    <section id="about" class="about" style="background-color: rgba(84,64,64,0.24)">
         <h1>Über uns</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla a sapiente repellat soluta dignissimos accusantium reprehenderit quia? Illo enim voluptatem, corporis doloribus error neque! Inventore amet voluptatibus quaerat consectetur sit.</p>
         <div class="row">
-            <div class="about-col" id="about-col">
-                <img src="img/events.png">
-                <div class="layer">
-                    <h3>Mitgliederevents</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, di cumque aut tempore explicabo numquam, repellat enim eaque eos?</p>
+            <!-- das ohne hover!!-->
+            <div class="about-col-weber">
+                <div class="weber-kurse" id="weber-kurse">
+                    <img src="img/events.png">
+                    <div class="weber-layer">
+                        <h3>Weber Kurse</h3>
+                    </div>
+                </div>
+                <div>
+                    <div class="about-col" style="pointer-events: none">
+                        <p id="button-weber">Buchen Sie jetzt unsere Weber-Kurse!</p>
+                    </div>
                 </div>
             </div>
+
             <div class="about-col">
-                <img src="img/events.png">
+                <img src="img/events.png" >
                 <div class="layer">
                     <h3>Wissensmanagement</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, di cumque aut tempore explicabo numquam, repellat enim eaque eos?</p>
@@ -169,63 +177,7 @@
             }
         }
 
-        //slideshow ausrichten
-        document.addEventListener('DOMContentLoaded', function() {
-            const slideshowContainer = document.getElementById('slideshow-container');
 
-            const observerOptions = {
-                root: null,
-                rootMargin: '0px',
-                threshold: 0.95
-            };
-
-            /*const observer = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        console.log("intersecting");
-                        //slideshowContainer.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' });
-                        const rect = slideshowContainer.getBoundingClientRect();
-                        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-                        window.scrollTo({
-                            top: rect.top + scrollTop - (window.innerHeight / 2) + (rect.height / 2),
-                            behavior: "smooth"
-                        });
-                    }
-                });
-            }, observerOptions);*/
-
-            const observer = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const rect = slideshowContainer.getBoundingClientRect();
-                        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-                        const targetPosition = rect.top + scrollTop - (window.innerHeight / 2) + (rect.height / 2);
-                        const startPosition = window.pageYOffset;
-                        const distance = targetPosition - startPosition;
-                        let startTime = null;
-
-                        const animation = currentTime => {
-                            if (startTime === null) startTime = currentTime;
-                            const timeElapsed = currentTime - startTime;
-                            const run = ease(timeElapsed, startPosition, distance, 100);
-                            window.scrollTo(0, run);
-                            if (timeElapsed < 100) requestAnimationFrame(animation);
-                        };
-
-                        const ease = (t, b, c, d) => {
-                            t /= d / 2;
-                            if (t < 1) return c / 2 * t * t + b;
-                            t--;
-                            return -c / 2 * (t * (t - 2) - 1) + b;
-                        };
-
-                        requestAnimationFrame(animation);
-                    }
-                });
-            }, observerOptions);
-
-            observer.observe(slideshowContainer);
-        });
 
     </script>
 </body>
