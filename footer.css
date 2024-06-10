@@ -135,3 +135,10 @@
         justify-content: space-between;
     }
 }
+@media (max-width: 767px) {
+    .mobile-break {
+      display: block;
+      margin-top: 0.5em; /* optional, for spacing */
+    }
+  }
+  
