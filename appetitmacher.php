@@ -45,18 +45,19 @@
             var fontSize = window.innerWidth <= 767 ? '0.8em' : '1.2em'; // Smaller font size for mobile devices
             jQuery("#nanogallery2").nanogallery2({
                 thumbnailWidth:   'auto',
-                thumbnailHeight:  250,
+                thumbnailHeight:  300,
                 thumbnailBorderVertical: 0,
                 thumbnailBorderHorizontal: 0,
                 thumbnailGutterWidth: 5,
                 thumbnailGutterHeight: 5,
                 thumbnailLabel: {
-                  "position": "overImageOnBottom"
+                  "position": "overImageOnBottom",
+                  "display": false
                 },
                 gallerySorting: "titleasc",
                 galleryFilterTags: true,
                 navigationFontSize: fontSize,
-                thumbnailHoverEffect2: "labelAppear75",
+
                 thumbnailAlignment: 'right',
                 galleryDisplayTransition: 'slideUp',
                 galleryDisplayTransitionDuration:  500,
