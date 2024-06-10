@@ -39,7 +39,7 @@
         <br>
         <h5>Haftung für Inhalte</h5>
         <p>Veranwortlich für den Inhalt nach § 55 Abs. 2 RStV:</p><br>
-        <p>Franz Stumbeck, Adresse</p>
+        <p>Franz Stumbeck</p>
         <br>
         <p></p>
         <br>
