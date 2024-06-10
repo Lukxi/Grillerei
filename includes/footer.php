@@ -11,7 +11,7 @@
                 <p>Raum A209</p>
                 <p>Dieter-Görlitz-Platz 1</p>
                 <p>94469 Deggendorf</p>
-                <h4 class="mail"><a href="mailto:wiproject@th-deg.de">wiproject@th-deg.de</a></h4>
+                <h4 class="mail"><a href="mailto:franzstumbeck@gmail.com">franzstumbeck@gmail.com</a></h4>
             </div>
             <div class="f-col">
                 <h3>Links <div class="underline"><span></span></div></h3>
@@ -33,7 +33,7 @@
 
         </div>
         <hr>
-        <p class="copy">&copy; 2024 WI-Project e.V. - Made with <i class="fa-regular fa-heart"></i> in Deggendorf</p>
+        <p class="copy">&copy; 2024 Grillerei mit Herz und Glut - <span class="mobile-break">Made with <i class="fa-regular fa-heart"></i> in Deggendorf</span></p>
 
         
     </section>

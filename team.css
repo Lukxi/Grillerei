@@ -30,7 +30,8 @@ a{
 
 }
 .text-box h1{
-    font-size: 55px;
+    font-size: 4em;
+    font-family: "Satisfy" !important;
 }
 .text-box p{
     margin: 10px 0 40px;
