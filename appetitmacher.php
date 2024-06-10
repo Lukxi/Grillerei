@@ -39,36 +39,44 @@
         
         <div id="nanogallery2">gallery_made_with_nanogallery2</div>
 
-            <script>
-                jQuery(document).ready(function () {
-              jQuery("#nanogallery2").nanogallery2({
+    <script>
+        jQuery(document).ready(function () {
+            function initNanogallery() {
+            var fontSize = window.innerWidth <= 767 ? '0.8em' : '1.2em'; // Smaller font size for mobile devices
+            jQuery("#nanogallery2").nanogallery2({
                 thumbnailWidth:   'auto',
                 thumbnailHeight:  250,
                 thumbnailBorderVertical: 0,
                 thumbnailBorderHorizontal: 0,
                 thumbnailGutterWidth: 5,
                 thumbnailGutterHeight: 5,
-
                 thumbnailLabel: {
-                    "position": "overImageOnBottom"
+                  "position": "overImageOnBottom"
                 },
                 gallerySorting: "titleasc",
                 galleryFilterTags: true,
-                navigationFontSize: '1.2em',
-
+                navigationFontSize: fontSize,
                 thumbnailHoverEffect2: "labelAppear75",
-
                 thumbnailAlignment: 'right',
                 galleryDisplayTransition: 'slideUp',
                 galleryDisplayTransitionDuration:  500,
                 thumbnailOpenImage: true,
-                kind:             'nano_photos_provider2',
-                dataProvider:     'http://localhost/grillerei/nano_photos_provider2/nano_photos_provider2.php',
-                locationHash:     false
-
-              });
+                kind: 'nano_photos_provider2',
+                dataProvider: 'http://localhost/grillerei/nano_photos_provider2/nano_photos_provider2.php',
+                locationHash: false
             });
-            </script>
+        }
+
+            // Initialize the gallery
+            initNanogallery();
+
+            // Re-initialize the gallery on window resize
+            jQuery(window).resize(function() {
+            jQuery("#nanogallery2").nanogallery2('destroy'); // Destroy the existing gallery
+            initNanogallery(); // Initialize the gallery again with new font size
+            });
+        });
+        </script>
 
         </section>
     

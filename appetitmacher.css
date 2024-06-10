@@ -86,7 +86,9 @@ h1{
 
 /*About Media Querry---------------------------*/
 @media(max-width: 992px){
-    
+    .about{
+        width: 90%;
+    } 
 }
 
 
