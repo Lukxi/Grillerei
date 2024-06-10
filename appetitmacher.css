@@ -58,13 +58,16 @@ a{
 @media(max-width: 992px){
 
     .text-box h1{
-        font-size: 28px;
+        font-size: 3.3em;
     }
     .text-box p{
         margin: 10px 0 40px;
-        font-size: 18px;
+        font-size: 1,5em;
         color: #fff;
     }
+        
+       
+    
     
 }
 @media(max-width: 576px){
@@ -90,6 +93,7 @@ h1{
         width: 90%;
     } 
 }
+
 
 
 /*Member---------------------------*/
