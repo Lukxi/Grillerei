@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="DE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Formular.css">
+    <title></title>
+</head>
+
+<body>
+<div class="wrapper">
+<form action="Formular.php" method="post">
+    
+    <div class="input-box">
+        <input type="email" id="Email" name="mailE-Mail" placeholder="E-Mail" required><br>
+    </div>
+    
+    <div class="input-box">
+    <select id="option" name="optOption">
+        <option value="" selected disabled hidden>Bitte auswählen</option>
+        <option value="event-grillen">Event - Grillen</option>
+        <option value="promo-grillen">Promo - Grillen</option>
+        <option value="show-grillen">Show - Grillen</option>
+    </select><br>
+    </div>
+
+    <div class="input-box">
+        <input type="text" id="Betreff" name="tfBetreff" placeholder="Betreff" required><br>
+    </div>
+
+    <textarea id="Nachricht" name="msgNachricht" placeholder="Nachricht" rows="10" cols="20" required></textarea><br>
+    
+    <div class="input-box">
+    <button type="submit" name="submit">Absenden</button>
+    </div>
+</form>
+</div>
+</body>
+
+</html>
