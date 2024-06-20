@@ -100,12 +100,15 @@ h1{
     left: 0px;
     width: 100%;
     height: 100vh;
-    background-color: white;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     z-index: 9;
+}
+.fade-Logo img{
+    width: 250px;
 }
 .mySlides{
     width: 100%;
@@ -272,6 +275,7 @@ h1{
 .about-col img{
     width: 100%;
     display: block;
+    height: auto;
 }
 
 
@@ -315,7 +319,7 @@ h1{
     transition: 0.5s;
 }
 .layer:hover h3{
-    bottom: 49%;
+    bottom: 60%;
     opacity: 1;
 }
 .layer:hover p{
