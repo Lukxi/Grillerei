@@ -1,4 +1,3 @@
-
     <section class="header">
         <nav>
             <a class="logo" href="index.php"><img src="img/logo.png" alt="Logo"></a>
