@@ -19,14 +19,17 @@
 </head>
 <body>
     <div class="fade-Logo" id="fadeLogo" >
-        <img src="img/illerLogo.png">
+        <img src="img/blacklogo.jpg">
     </div>
 
 <?php include('includes/header.php'); ?>
         <div class="text-box">
             <h1>Grillerei mit Herz und Glut</h1>
             <p></p>
-            <a href="#member" class="hero-btn">Jetzt Mitd werden!</a>
+            <div class="btns">
+                <a href="#member" class="hero-btn">Zu den Angeboten</a>
+                <a href="#member" class="hero-btn">Kontakt</a>
+            </div>
         </div>
     </section>
 
@@ -39,12 +42,12 @@
                 <div class="weber-kurse" id="weber-kurse">
                     <img src="img/events.png">
                     <div class="weber-layer">
-                        <h3>Weber Kurse</h3>
+                        <h3>Weber-Promo</h3>
                     </div>
                 </div>
                 <div>
                     <div class="about-col" style="pointer-events: none">
-                        <p id="button-weber">Buchen Sie jetzt unsere Weber-Kurse!</p>
+                        <p id="button-weber">Interese? Kontaktieren Sie uns!</p>
                     </div>
                 </div>
             </div>
@@ -52,14 +55,14 @@
             <div class="about-col">
                 <img src="img/events.png" >
                 <div class="layer">
-                    <h3>Wissensmanagement</h3>
+                    <h3>Event-Grillen</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, di cumque aut tempore explicabo numquam, repellat enim eaque eos?</p>
                 </div>
             </div>
             <div class="about-col">
-                <img src="img/feier.jpg">
+                <img src="img/events.png">
                 <div class="layer">
-                    <h3>Studentisches Leben</h3>
+                    <h3>Show-Grillen</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, di cumque aut tempore explicabo numquam, repellat enim eaque eos?</p>
                 </div>
             </div>
