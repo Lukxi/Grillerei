@@ -57,7 +57,7 @@
         <p> Dieses Impressum gilt auch für Auftritte in den sozial Medien, außerdem werden dadurch deren Nutzungsbedigungen geltend gemacht.</p>
         <p>Facebook: <a href="https://de-de.facebook.com/legal/terms#:~:text=Du%20darfst%20Benutzernamen%20oder%20Passw%C3%B6rter,in%20den%20Plattform%2DNutzungsbedingungen%20festgelegt">Facebook-Nutzungsbedingungen</a></p>
         <p>Instagram: <a href="https://help.instagram.com/581066165581870">Instagram-Nutzungsbedinungen</a></p>
-        <h5>Bildnachweise:</5>
+        <h5>Bildnachweise:</h5>
         <p>Die auf diese Webseite verwendeten Bilder stammen entweder von mir selbst oder sind lizenzfrei und wurden von folgenden Plattformen bezogen:</p>
         <p>Pixabay</p>
         <p>Unsplash</p>
