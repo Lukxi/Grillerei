@@ -28,24 +28,21 @@
         
         <h4>Angaben gemäß § 5 TMG:</h4>
         <p>Franz Stumbeck</p>
-        <p>Adresse: Etzenhausen 12</p>
+        <p>Adresse: Eidsberg 32</p>
+        <p>94539 Grafling</p>
         <br>
         <p></a></p>
         <br>
-        <h5>Ansprechpartner:</h5>
+        <h5>Ansprechpartner und Kontakt:</h5>
         <ul>
-            <li>Franz Stumbeck</li>
+             <li>Franz Stumbeck</li>
         </ul>
-        <br>
-        <h5>Kontaktdaten:</h5>
         <p>Telefon: +49 175 1976184</p>
         <p>E-Mail: franzstumbeck@gmail.com</p>
         <br>
         <h5>Haftung für Inhalte</h5>
         <p>Veranwortlich für den Inhalt nach § 55 Abs. 2 RStV:</p><br>
         <p>Franz Stumbeck</p>
-        <br>
-        <p></p>
         <br>
         <h5>Haftung für Links</h5>
         <p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.</p>
