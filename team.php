@@ -33,17 +33,15 @@
             </div>
             <div class="about-col" id="vorstand-list">
                 <ul>
-                    <li>Herzlich Willkommen!</li><br>
+                    <li>Über mich</li><br>
 
-        <li>Freuen Sie sich auf ein gemütliches Beisammensein unter Grillfreunden, wo der Duft von frisch Gegrilltem in der Luft liegt und die Glut sanft knistert.
-            <li>Unser Grillmeister, Franz Stumbeck, lädt Sie ein, traditionelle Grillkunst hautnah zu erleben.</li><br>
-
-            <li>Was Sie erwartet:</li><br>
-
-            <li>Authentische Grillvorführungen: Entdecken Sie, wie mit Hingabe und handwerklichem Geschick klassische Grillgerichte zubereitet werden.</li><br>
-            <li>Interaktive Grillkurse: Erfahren Sie praktische Tipps und Tricks, um Ihr Grillgut zu Hause perfektionieren zu können.</li><br>
-            <li>Regionale Speisen: Genießen Sie eine Auswahl an herzhaften Klassikern und regionalen Favoriten.</li><br>
-            <li>Familiäre Atmosphäre: Treffen Sie Gleichgesinnte und tauschen Sie sich aus über alles, was das Grillerherz begehrt.</li><br>
+        <li>Mein Name ist Franz Stumbeck. Im Frühjahr 2012 kaufte ich mir meinen ersten Weber Grill und erfuhr so von der Möglichkeit</li>
+            <li>an Grillkursen teilzunehmen, um den Umgang und die Anwendung sämtlicher Weber Grills kennenzulernen und im Gebrauch zu sehen.</li><br>
+            <li>Seit dieser Zeit nehme ich an vielen Grillkursen mit den unterschiedlichen Themen teil, um meine Neugier zu stillen und weitere Erfahrungen,</li><br>
+            <li>Ideen und Inspirationen zu sammeln. Somit kann ich sagen, dass das Grillen zu meinem Hobby wurde. Daraus entstand eine wahre Leidenschaft,</li><br>
+            <li>die ich nun durch meinen Beruf, der zugleich Berufung ist, ausüben darf.</li><br>
+            <li></li><br>
+            <li></li><br>
                 </ul>
             </div>
         </div>

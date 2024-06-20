@@ -3,14 +3,14 @@
             <div class="f-col">
                 <img src="img/logo.png" alt="logo" class="f-logo">
                 <div class="f-p">
-                    <p>Wir sind der Verein der Wirtschaftsinformatiker an der Technischen Hochschule Deggendorf!</p>
+                    <p>Grillerei mit Herz und Glut - Promo-, Event-, und Showgrillen</p>
                 </div>
             </div>
             <div class="f-col">
                 <h3>Adresse <div class="underline"><span></span></div></h3>
-                <p>Raum A209</p>
-                <p>Dieter-Görlitz-Platz 1</p>
-                <p>94469 Deggendorf</p>
+                <p>Eidsberg 12</p>
+                <p>94539 Grafling</p>
+                <p>Handy: 175/1976 184</p>
                 <h4 class="mail"><a href="mailto:franzstumbeck@gmail.com">franzstumbeck@gmail.com</a></h4>
             </div>
             <div class="f-col">
