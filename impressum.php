@@ -33,12 +33,10 @@
         <br>
         <p></a></p>
         <br>
-        <h5>Ansprechpartner:</h5>
+        <h5>Ansprechpartner und Kontakt:</h5>
         <ul>
-            <li>Franz Stumbeck</li>
+             <li>Franz Stumbeck</li>
         </ul>
-        <br>
-        <h5>Kontaktdaten:</h5>
         <p>Telefon: +49 175 1976184</p>
         <p>E-Mail: franzstumbeck@gmail.com</p>
         <br>
