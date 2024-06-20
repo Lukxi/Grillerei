@@ -8,7 +8,7 @@
             </div>
             <div class="f-col">
                 <h3>Adresse <div class="underline"><span></span></div></h3>
-                <p>Eidsberg 12</p>
+                <p>Eidsberg 32</p>
                 <p>94539 Grafling</p>
                 <p>Handy: 175/1976 184</p>
                 <h4 class="mail"><a href="mailto:franzstumbeck@gmail.com">franzstumbeck@gmail.com</a></h4>
