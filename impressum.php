@@ -60,7 +60,7 @@
         <p>Instagram: <a href="https://help.instagram.com/581066165581870">Instagram-Nutzungsbedinungen</a></p>
         <br>
         <h5>Bildnachweise:</h5>
-        <p>Die auf diese Webseite verwendeten Bilder stammen entweder von mir selbst oder sind lizenzfrei und wurden von folgenden Plattformen bezogen:</p>
+        <p>Die auf dieser Webseite verwendeten Bilder stammen entweder von mir selbst oder sind lizenzfrei und wurden von folgenden Plattformen bezogen:</p>
         <p>Pixabay</p>
         <p>Unsplash</p>
     </section>
