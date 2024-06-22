@@ -99,7 +99,7 @@ h1{
     bottom: 0px;
     left: 0px;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -108,7 +108,10 @@ h1{
     z-index: 9;
 }
 .fade-Logo img{
-    width: 250px;
+    max-width: 70%;
+    max-height: 50vh;
+    width: auto;
+    height: auto;
 }
 .mySlides{
     width: 100%;
@@ -212,7 +215,7 @@ h1{
 
 /*--------------------- ohne Hover*/
 #weber-kurse {
-    flex-basis: 32%;
+    flex: 1;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
@@ -221,7 +224,18 @@ h1{
 
 #weber-kurse img {
     width: 100%;
-    display: block;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-col-weber{
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
 }
 
 .weber-layer {
@@ -234,7 +248,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(204, 0, 0, 100);
+    background-color: rgb(143, 9, 9);
     color: white;
     box-sizing: border-box;
     padding: 20px;
@@ -242,30 +256,28 @@ h1{
 
 .weber-layer h3 {
     margin: 0;
-    font-size: 300%;
+    font-size: 200%;
 }
 
 #button-weber {
-    margin: 10px 0 0 0;
-    font-size: 150%;
     display: inline-block;
-    background-color: #c00;
-    color: white;
-    padding: 10px 20px;
+    background-color: rgb(143, 9, 9);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1.3rem;
     text-decoration: none;
-    margin-top: 10px;
-    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
+#button-weber:hover {
+    transform: scale(1.1);
+}
+/*Weber - Ende*/
 .about-col{
-    flex-basis: 32%;
-    max-height: 71vh;       /*Achtung !!! später entfernen, ist nur zu Vorführzwecken !!!*/
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
-}
-/*--------------------- ohne Hover*/
-.about-col-weber{
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -300,7 +312,7 @@ h1{
     width: 100%;
     font-weight: 400;
     color: #fff;
-    font-size: 25px;
+    font-size: 5%;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -330,6 +342,9 @@ h1{
 @media(max-width: 700px){
     .row{
         flex-direction: column;
+    }
+    .about-col-weber{
+        width: 100%;
     }
     .layer:hover p{
         opacity: 1;

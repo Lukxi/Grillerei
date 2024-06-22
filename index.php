@@ -37,7 +37,6 @@
         <h1>Über uns</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla a sapiente repellat soluta dignissimos accusantium reprehenderit quia? Illo enim voluptatem, corporis doloribus error neque! Inventore amet voluptatibus quaerat consectetur sit.</p>
         <div class="row">
-            <!-- das ohne hover!!-->
             <div class="about-col-weber">
                 <div class="weber-kurse" id="weber-kurse">
                     <img src="img/events.png">
@@ -47,11 +46,37 @@
                 </div>
                 <div>
                     <div class="about-col" style="pointer-events: none">
-                        <p id="button-weber">Interese? Kontaktieren Sie uns!</p>
+                        <p id="button-weber">Interesse? Kontaktieren Sie uns!</p>
                     </div>
                 </div>
             </div>
-
+            <div class="about-col-weber">
+                <div class="weber-kurse" id="weber-kurse">
+                    <img src="KarusellImg/Karusell1.jpg">
+                    <div class="weber-layer">
+                        <h3>Event-Grillen</h3>
+                    </div>
+                </div>
+                <div>
+                    <div class="about-col" style="pointer-events: none">
+                        <p id="button-weber">Event-Grillen buchen!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-col-weber">
+                <div class="weber-kurse" id="weber-kurse">
+                    <img src="KarusellImg/Karusell2.jpg" class="angebot-img">
+                    <div class="weber-layer">
+                        <h3>Show-Grillen</h3>
+                    </div>
+                </div>
+                <div>
+                    <div class="about-col" style="pointer-events: none">
+                        <p id="button-weber">Show-Grillen buchen!</p>
+                    </div>
+                </div>
+            </div>
+            <!--
             <div class="about-col">
                 <img src="img/events.png" >
                 <div class="layer">
@@ -65,7 +90,7 @@
                     <h3>Show-Grillen</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, di cumque aut tempore explicabo numquam, repellat enim eaque eos?</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -99,6 +124,25 @@
 
 
     <script>
+        /*Angebote Höhe Handy*/
+        window.addEventListener('load', () => {
+            const aboutCols = document.querySelectorAll('.about-col-weber');
+            let maxHeight = 0;
+
+            // Finde die maximale Höhe
+            aboutCols.forEach(col => {
+                const height = col.offsetHeight;
+                if (height > maxHeight) {
+                    maxHeight = height;
+                }
+            });
+
+            // Setze alle divs auf die maximale Höhe
+            aboutCols.forEach(col => {
+                col.style.height = maxHeight + 'px';
+            });
+        });
+        /*Angebote Höhe Handy*/
 
         const toggleBtn= document.querySelector('.toggle_btn');
         const toggleBtnIcon= document.querySelector('.toggle_btn i');
@@ -126,7 +170,7 @@
                 }
             }, 30);
             //document.getElementById('centerText').style.display = 'none';
-        }, 1000);
+        }, 2000);
 
         //Fotokarusell
         var slideIndex = 0;
