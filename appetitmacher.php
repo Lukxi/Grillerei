@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WI-Project e.V.</title>
+    <title>Grillerei mit Herz und Glut</title>
     <link rel="stylesheet" href="appetitmacher.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="footer.css">
@@ -32,7 +32,7 @@
         </div>
     </section>
 
-    <section id="about" class="about">
+    <section id="galerie" class="galerie">
         <p>Foto anklicken um es genauer zu betrachten</p>
         <p>Hier kannst du auch einen Filter auswählen</p>
 
