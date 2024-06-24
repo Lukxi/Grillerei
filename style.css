@@ -30,6 +30,7 @@ a{
     
 
 }
+
 .text-box h1{
     font-size: 4em;
     font-family: "Satisfy" !important;
@@ -56,8 +57,12 @@ a{
     background: #f44336;
     transition: 0.5s;
 }
-
-
+.text-box #left{
+    margin-right: 7%;
+}
+.text-box #right{
+    margin-left: 7%;
+}
 /*Hero Media Querry---------------------------*/
 
 @media(max-width: 992px){
@@ -74,7 +79,20 @@ a{
    
 }
 @media(max-width: 576px){
+    .text-box .hero-btn {
+        align-items: center;
+        gap: 10px;
+    }
+    .text-box #left{
+        margin-right: 0%;
+    }
+    .text-box #right{
+        margin-left: 0%;
+    }
 
+    .hero-btn a {
+        text-align: center;
+    }
 }
 
 /*About---------------------------*/
@@ -108,7 +126,7 @@ h1{
     z-index: 9;
 }
 .fade-Logo img{
-    width: 250px;
+    width: 350px;
 }
 .mySlides{
     width: 100%;

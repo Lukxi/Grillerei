@@ -3,11 +3,20 @@ nav {
     padding: 15px 4%;
     justify-content: space-between;
     align-items: center;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(14, 16, 33, 0.637);
     backdrop-filter: blur(15px);
+    position: fixed; /* Position fixiert - scrollt also mit */
+    width: 100%;     /* Volle Breite */
+    top: 0;          /* Am oberen Rand fixieren */
+    left: 0;
+    z-index: 1;   /* Sicherstellen, dass es über anderen Elementen liegt */
+    box-sizing: border-box; /* Polsterung und Rand in der Breite enthalten */
+    overflow: hidden; /* Verhindert Überlauf */
 }
 nav img {
-    width: 150px;
+    width: 70px;
+    transform: scale(1.5); /* Adjust the scale value as needed */
+    transform-origin: left; /* Ensures the logo scales from the left side */
 }
 .logo{
     margin-right: auto;
@@ -69,12 +78,12 @@ nav .fa-solid{
 /*Dropdown---------------------------*/
 .dropdown{
     display: none;
-    position: absolute;
+    position: fixed;
     right: 2rem;
     height: 0;
-    top: 80px;
+    top: 100px;
     width: 300px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(14, 16, 33, 0.637);
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;

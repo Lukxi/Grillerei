@@ -19,7 +19,7 @@
 </head>
 <body>
     <div class="fade-Logo" id="fadeLogo" >
-        <img src="img/blacklogo.jpg">
+        <img src="img/blacklogo.png">
     </div>
 
 <?php include('includes/header.php'); ?>
@@ -27,8 +27,8 @@
             <h1>Grillerei mit Herz und Glut</h1>
             <p></p>
             <div class="btns">
-                <a href="#member" class="hero-btn">Zu den Angeboten</a>
-                <a href="#member" class="hero-btn">Kontakt</a>
+                <a href="#member" class="hero-btn" id="left">Zu den Angeboten</a>
+                <a href="#member" class="hero-btn" id="right">Kontakt</a>
             </div>
         </div>
     </section>
