@@ -29,9 +29,8 @@
         <div class="row">
             <div class="about-col" id="about-col">
                 <h4></h4><br>
-                <img src= "Foto_Franz_Stumbeck.jpg">
+                <img src= "C:\xampp\htdocs\Grillerei\img\Team_Foto.jpg">
             </div>
-            <dic><img src= "Team_Foto.jpg"></div>
             <div class="about-col" id="vorstand-list">
                 <ul>
                     <li><h4>Über mich</h4></li><br>
