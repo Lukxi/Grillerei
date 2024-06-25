@@ -29,7 +29,7 @@
         <div class="row">
             <div class="about-col" id="about-col">
                 <h4></h4><br>
-                <img src= "img\Team_Foto.jpg">
+                <img src= "img\Foto_Franz_Stumbeck.jpg">
             </div>
             <div class="about-col" id="vorstand-list">
                 <ul>
