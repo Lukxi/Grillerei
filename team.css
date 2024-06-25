@@ -116,11 +116,10 @@ h1{
     height: auto; 
 }
 
-.text-container{
-    margin-left: 20px;
-    padding: 10; 
-    border: 1px solid #ccc; 
-    width: 200px; 
+
+#vorstand-list{
+    text-align: left;
+    padding-top: 20px;
 }
 
 /*About Media Querry---------------------------*/
