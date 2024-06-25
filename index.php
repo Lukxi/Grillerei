@@ -33,7 +33,7 @@
         </div>
     </section>
 
-    <section id="about" class="about" style="background-color: rgba(84,64,64,0.24)">
+    <section id="about" class="about">
         <h1>Über uns</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla a sapiente repellat soluta dignissimos accusantium reprehenderit quia? Illo enim voluptatem, corporis doloribus error neque! Inventore amet voluptatibus quaerat consectetur sit.</p>
         <div class="row">
@@ -45,8 +45,8 @@
                     </div>
                 </div>
                 <div>
-                    <div class="about-col" style="pointer-events: none">
-                        <p id="button-weber">Interesse? Kontaktieren Sie uns!</p>
+                    <div class="about-col">
+                        <p id="button-weber">Weber-Promo Grillen buchen!</p>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="about-col" style="pointer-events: none">
+                    <div class="about-col">
                         <p id="button-weber">Event-Grillen buchen!</p>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="about-col" style="pointer-events: none">
+                    <div class="about-col">
                         <p id="button-weber">Show-Grillen buchen!</p>
                     </div>
                 </div>

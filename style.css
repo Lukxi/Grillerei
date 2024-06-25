@@ -290,11 +290,6 @@ h1{
     height: auto;
 }
 
-
-.about-col:hover{
-    box-shadow: 0 0 20px 0px #777;
-}
-
 .layer{
     background: transparent;
     height: 100%;
