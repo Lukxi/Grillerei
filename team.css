@@ -117,9 +117,13 @@ h1{
 }
 
 
-#vorstand-list{
-    text-align: left;
-    padding-top: 20px;
+.container{
+    margin: 10 px 0; 
+    padding: 10px; 
+    border: 1 px solid #ccc;
+    text-align: left; 
+    list-style-type: none;
+    width: 40%;
 }
 
 /*About Media Querry---------------------------*/

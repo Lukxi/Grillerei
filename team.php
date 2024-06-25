@@ -32,20 +32,21 @@
         <div class="container">
                 <img src= "img\Team_Foto.jpg">
             </div>
-            <div class="text-container">
-                <ul>
-            <li><h4>Über mich</h4></li><br>
+        <div class="container1"><p>
+        <h4>Über mich</h4></br>
 
-            <li>Mein Name ist Franz Stumbeck. Im Frühjahr 2012 kaufte ich mir meinen ersten Weber Grill und erfuhr so von der Möglichkeit</li>
-            <li>an Grillkursen teilzunehmen, um den Umgang und die Anwendung sämtlicher Weber Grills kennenzulernen und im Gebrauch zu sehen.</li><br>
-            <li>Seit dieser Zeit nehme ich an vielen Grillkursen mit den unterschiedlichen Themen teil, um meine Neugier zu stillen und weitere Erfahrungen,</li>
-            <li>Ideen und Inspirationen zu sammeln. Somit kann ich sagen, dass das Grillen zu meinem Hobby wurde. Daraus entstand eine wahre Leidenschaft,</li>
-            <li>die ich nun durch meinen Beruf, der zugleich Berufung ist, ausüben darf.</li><br>
-            <li></li><br>
-            <li></li><br>
-                </ul>
-            </div>
-        </div>
+    Mein Name ist Franz Stumbeck. Im Frühjahr 2012 kaufte ich mir meinen ersten Weber Grill und erfuhr so von der Möglichkeit<br>
+    an Grillkursen teilzunehmen, um den Umgang und die Anwendung sämtlicher Weber Grills kennenzulernen und im Gebrauch zu sehen.<br>
+    Seit dieser Zeit nehme ich an vielen Grillkursen mit den unterschiedlichen Themen teil, um meine Neugier zu stillen und weitere Erfahrungen,<br>
+    Ideen und Inspirationen zu sammeln. Somit kann ich sagen, dass das Grillen zu meinem Hobby wurde. Daraus entstand eine wahre Leidenschaft,<br>
+    die ich nun durch meinen Beruf, der zugleich Berufung ist, ausüben darf.<br>
+    </p>
+    </div>
+    <div class="container1">
+        Mein Team
+        ... Textfüllung... 
+    
+    </div>
     </section>
 
 
