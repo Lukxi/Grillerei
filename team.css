@@ -107,19 +107,20 @@ h1{
     margin: 10 px 0; 
     padding: 10px; 
     border: 1 px solid #ccc;
-    width: fit-content;
+    width: 40%;
 }
 
-img{
+.about img{
     display: block; 
     max-width: 100%; 
     height: auto; 
 }
 
-
-#vorstand-list{
-    text-align: left;
-    padding-top: 20px;
+.text-container{
+    margin-left: 20px;
+    padding: 10; 
+    border: 1px solid #ccc; 
+    width: 200px; 
 }
 
 /*About Media Querry---------------------------*/
@@ -128,6 +129,7 @@ img{
         flex-direction: column;
     }
 }
+
 
 
 /*Member---------------------------*/

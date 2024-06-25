@@ -32,7 +32,7 @@
         <div class="container">
                 <img src= "img\Team_Foto.jpg">
             </div>
-            <div class="about-col" id="vorstand-list">
+            <div class="text-container">
                 <ul>
             <li><h4>Über mich</h4></li><br>
 
