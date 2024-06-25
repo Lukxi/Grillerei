@@ -29,13 +29,13 @@
         <div class="row">
             <div class="about-col" id="about-col">
                 <h4></h4><br>
-                <img src= "C:\xampp\htdocs\Grillerei\img\Team_Foto.jpg">
+                <img src= "img\Team_Foto.jpg">
             </div>
             <div class="about-col" id="vorstand-list">
                 <ul>
-                    <li><h4>Über mich</h4></li><br>
+            <li><h4>Über mich</h4></li><br>
 
-        <li>Mein Name ist Franz Stumbeck. Im Frühjahr 2012 kaufte ich mir meinen ersten Weber Grill und erfuhr so von der Möglichkeit</li>
+            <li>Mein Name ist Franz Stumbeck. Im Frühjahr 2012 kaufte ich mir meinen ersten Weber Grill und erfuhr so von der Möglichkeit</li>
             <li>an Grillkursen teilzunehmen, um den Umgang und die Anwendung sämtlicher Weber Grills kennenzulernen und im Gebrauch zu sehen.</li><br>
             <li>Seit dieser Zeit nehme ich an vielen Grillkursen mit den unterschiedlichen Themen teil, um meine Neugier zu stillen und weitere Erfahrungen,</li>
             <li>Ideen und Inspirationen zu sammeln. Somit kann ich sagen, dass das Grillen zu meinem Hobby wurde. Daraus entstand eine wahre Leidenschaft,</li>
