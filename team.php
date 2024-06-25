@@ -29,8 +29,9 @@
         <div class="row">
             <div class="about-col" id="about-col">
                 <h4></h4><br>
-                <img src= "https://cdn.pixabay.com/photo/2018/05/12/11/37/team-3393037_1280.jpg">
+                <img src= "Foto_Franz_Stumbeck.jpg">
             </div>
+            <dic><img src= "Team_Foto.jpg"></div>
             <div class="about-col" id="vorstand-list">
                 <ul>
                     <li><h4>Über mich</h4></li><br>
