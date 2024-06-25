@@ -32,7 +32,7 @@
                 <img src= "img\Foto_Franz_Stumbeck.jpg">
             </div>
             <div calss="about-col" id="about-col">
-                <img src="img\Foto_Team.img">
+                <img src="img\Team_Foto.img">
             </div>
             <div class="about-col" id="vorstand-list">
                 <ul>
