@@ -20,33 +20,50 @@
     <?php include('includes/header.php'); ?>
         <div class="text-box">
             <h1>Mein Team</h1>
-            <p>Über mich & mein Team</p>
+            <p><br></p>
         </div>
     </section>
 
     <section id="about" class="about">
         <h1></h1>
-        <div class="container">
-                <img src= "img\Foto_Franz_Stumbeck.jpg">
-                </div>
-        <div class="container">
-                <img src= "img\Team_Foto.jpg">
+        <div class="row">
+            <div class="about-col" id="about-col">
+                <h4></h4><br>
+                <img src= "img/Foto_Franz_Stumbeck.jpg">
             </div>
-        <div class="container1"><p>
-        <h4>Über mich</h4></br>
+            <div class="about-col" id="vorstand-list">
+                <ul>
+                    <li><h4>Über mich</h4></li><br>
 
-    Mein Name ist Franz Stumbeck. Im Frühjahr 2012 kaufte ich mir meinen ersten Weber Grill und erfuhr so von der Möglichkeit an Grillkursen teilzunehmen,<br>
-    um den Umgang und die Anwendung sämtlicher Weber Grills kennenzulernen und im Gebrauch zu sehen.Seit dieser Zeit nehme ich an vielen Grillkursen mit  <br>
-    unterschiedlichen Themen teil, um meine Neugier zu stillen und weitere Erfahrungen, Ideen und Inspirationen zu sammeln. Somit kann ich sagen,         <br>
-    dass das Grillen zu meinem Hobby wurde. Daraus entstand eine wahre Leidenschaft,<br>
-    die ich nun durch meinen Beruf, der zugleich Berufung ist, ausüben darf.<br>
-    </p>
-    </div>
-    <div class="container1">
-        Mein Team <br>
-        ... Textfüllung... 
-    
-    </div>
+            <li>Mein Name ist Franz Stumbeck. Im Frühjahr 2012 kaufte ich mir meinen ersten Weber Grill und erfuhr so von der Möglichkeit</li>
+            <li>an Grillkursen teilzunehmen, um den Umgang und die Anwendung sämtlicher Weber Grills kennenzulernen und im Gebrauch zu sehen.</li><br>
+            <li>Seit dieser Zeit nehme ich an vielen Grillkursen mit den unterschiedlichen Themen teil, um meine Neugier zu stillen und weitere Erfahrungen,</li>
+            <li>Ideen und Inspirationen zu sammeln. Somit kann ich sagen, dass das Grillen zu meinem Hobby wurde. Daraus entstand eine wahre Leidenschaft,</li>
+            <li>die ich nun durch meinen Beruf, der zugleich Berufung ist, ausüben darf.</li><br>
+            <li></li><br>
+            <li></li><br>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="about-col" id="about-col">
+                <h4></h4><br>
+                <img src= "img/Team_Foto.jpg">
+            </div>
+            <div class="about-col" id="vorstand-list">
+                <ul>
+                    <li><h4>Mein Team</h4></li><br>
+
+        <li>Mein Name ist Franz Stumbeck. Im Frühjahr 2012 kaufte ich mir meinen ersten Weber Grill und erfuhr so von der Möglichkeit</li>
+            <li>an Grillkursen teilzunehmen, um den Umgang und die Anwendung sämtlicher Weber Grills kennenzulernen und im Gebrauch zu sehen.</li><br>
+            <li>Seit dieser Zeit nehme ich an vielen Grillkursen mit den unterschiedlichen Themen teil, um meine Neugier zu stillen und weitere Erfahrungen,</li>
+            <li>Ideen und Inspirationen zu sammeln. Somit kann ich sagen, dass das Grillen zu meinem Hobby wurde. Daraus entstand eine wahre Leidenschaft,</li>
+            <li>die ich nun durch meinen Beruf, der zugleich Berufung ist, ausüben darf.</li><br>
+            <li></li><br>
+            <li></li><br>
+                </ul>
+            </div>
+        </div>
     </section>
 
 

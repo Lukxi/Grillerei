@@ -103,31 +103,11 @@ h1{
     display: block;
 }
 
-.container{
-    margin: 10 px 0; 
-    padding: 10px; 
-    border: 1 px solid #ccc;
-    width: 40%;
-}
-
-.about img{
-    display: block; 
-    max-width: 100%; 
-    height: auto; 
-}
 
 
-.container1{
-    height: 60%; 
-    padding: 10px;
-    right: 10px; 
-    top: 0px;
-    margin-top: 0px; 
-    margin-right: 20px;
-    margin-bottom: 10px;  
-    text-align: left; 
-    list-style-type: none;
-    width: 40%;
+#vorstand-list{
+    text-align: left;
+    padding-top: 20px;
 }
 
 /*About Media Querry---------------------------*/
@@ -136,7 +116,6 @@ h1{
         flex-direction: column;
     }
 }
-
 
 
 /*Member---------------------------*/
@@ -183,5 +162,3 @@ h1{
         font-size: 24px;
     }
 }
-
-/*Member---------------------------*/
