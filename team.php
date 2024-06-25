@@ -35,15 +35,15 @@
         <div class="container1"><p>
         <h4>Über mich</h4></br>
 
-    Mein Name ist Franz Stumbeck. Im Frühjahr 2012 kaufte ich mir meinen ersten Weber Grill und erfuhr so von der Möglichkeit<br>
-    an Grillkursen teilzunehmen, um den Umgang und die Anwendung sämtlicher Weber Grills kennenzulernen und im Gebrauch zu sehen.<br>
-    Seit dieser Zeit nehme ich an vielen Grillkursen mit den unterschiedlichen Themen teil, um meine Neugier zu stillen und weitere Erfahrungen,<br>
-    Ideen und Inspirationen zu sammeln. Somit kann ich sagen, dass das Grillen zu meinem Hobby wurde. Daraus entstand eine wahre Leidenschaft,<br>
+    Mein Name ist Franz Stumbeck. Im Frühjahr 2012 kaufte ich mir meinen ersten Weber Grill und erfuhr so von der Möglichkeit an Grillkursen teilzunehmen,<br>
+    um den Umgang und die Anwendung sämtlicher Weber Grills kennenzulernen und im Gebrauch zu sehen.Seit dieser Zeit nehme ich an vielen Grillkursen mit  <br>
+    unterschiedlichen Themen teil, um meine Neugier zu stillen und weitere Erfahrungen, Ideen und Inspirationen zu sammeln. Somit kann ich sagen,         <br>
+    dass das Grillen zu meinem Hobby wurde. Daraus entstand eine wahre Leidenschaft,<br>
     die ich nun durch meinen Beruf, der zugleich Berufung ist, ausüben darf.<br>
     </p>
     </div>
     <div class="container1">
-        Mein Team
+        Mein Team <br>
         ... Textfüllung... 
     
     </div>
