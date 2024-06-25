@@ -33,11 +33,10 @@
         </div>
     </section>
 
-    <section id="about" class="about" style="background-color: rgba(84,64,64,0.24)">
+    <section id="about" class="about">
         <h1>Über uns</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla a sapiente repellat soluta dignissimos accusantium reprehenderit quia? Illo enim voluptatem, corporis doloribus error neque! Inventore amet voluptatibus quaerat consectetur sit.</p>
         <div class="row">
-            <!-- das ohne hover!!-->
             <div class="about-col-weber">
                 <div class="weber-kurse" id="weber-kurse">
                     <img src="img/events.png">
@@ -46,34 +45,40 @@
                     </div>
                 </div>
                 <div>
-                    <div class="about-col" style="pointer-events: none">
-                        <p id="button-weber">Interese? Kontaktieren Sie uns!</p>
+                    <div class="about-col-buttons">
+                        <p id="button-weber">Weber-Promo buchen!</p>
                     </div>
                 </div>
             </div>
-
-            <div class="about-col">
-                <img src="img/events.png" >
-                <div class="layer">
-                    <h3>Event-Grillen</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, di cumque aut tempore explicabo numquam, repellat enim eaque eos?</p>
+            <div class="about-col-weber">
+                <div class="weber-kurse" id="weber-kurse">
+                    <img src="KarusellImg/Karusell1.jpg">
+                    <div class="weber-layer">
+                        <h3>Event-Grillen</h3>
+                    </div>
+                </div>
+                <div>
+                    <div class="about-col-buttons">
+                        <p id="button-weber">Event-Grillen buchen!</p>
+                    </div>
                 </div>
             </div>
-            <div class="about-col">
-                <img src="img/events.png">
-                <div class="layer">
-                    <h3>Show-Grillen</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, di cumque aut tempore explicabo numquam, repellat enim eaque eos?</p>
+            <div class="about-col-weber">
+                <div class="weber-kurse" id="weber-kurse">
+                    <img src="KarusellImg/Karusell2.jpg" class="angebot-img">
+                    <div class="weber-layer">
+                        <h3>Show-Grillen</h3>
+                    </div>
+                </div>
+                <div>
+                    <div class="about-col-buttons">
+                        <p id="button-weber">Show-Grillen buchen!</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="member" class="member">
-        <h1>Mitglied werden!</h1>
-        <p>Um Mitglied zu werden, musst du nur die beigefügte Beitrittserklärung ausfüllen<br>und diese einfach eingescannt an <br><a id="red" href="mailto:wiproject@th-deg.de">wiproject@th-deg.de</a> senden!</p>
-        <a href="res/Beitrittserklärung.pdf" target="_blank" rel="noreferrer noopener" class="member-btn">Zur Beitrittserklärung</a>
-    </section>
 
     <div class="slideshow-container" id="slideshow-container">
         <div class="mySlides fadeSlider">
@@ -99,6 +104,37 @@
 
 
     <script>
+
+        /*Angebote Höhe Handy*/
+        window.addEventListener('load', () => {
+            const aboutCols = document.querySelectorAll('.about-col-weber');
+            const aboutCol = document.querySelectorAll('.about-col-buttons');
+            let maxHeight = 0;
+            let maxHeightWeber = 0;
+
+            // Finde die maximale Höhe
+            aboutCols.forEach(col => {
+                const height = col.offsetHeight;
+                if (height > maxHeight) {
+                    maxHeight = height;
+                }
+            });
+            aboutCol.forEach(cols => {
+                const height = cols.offsetHeight;
+                if (height > maxHeight) {
+                    maxHeightWeber = height;
+                }
+            });
+
+            // Setze alle divs auf die maximale Höhe
+            aboutCols.forEach(col => {
+                col.style.height = maxHeight + 'px';
+            });
+            aboutCol.forEach(cols => {
+                cols.style.height = maxHeightWeber + 'px';
+            });
+        });
+        /*Angebote Höhe Handy*/
 
         const toggleBtn= document.querySelector('.toggle_btn');
         const toggleBtnIcon= document.querySelector('.toggle_btn i');
