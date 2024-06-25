@@ -26,14 +26,11 @@
 
     <section id="about" class="about">
         <h1></h1>
-        <div class="row">
-            <div class="about-col" id="about-col">
-                <h4></h4><br>
+        <div class="container">
                 <img src= "img\Foto_Franz_Stumbeck.jpg">
-            </div>
-            <div class="row">
-            <div class="about-col" id="about-col">
-                <img src="img\Team_Foto.jpg">
+                </div>
+        <div class="container">
+                <img src= "img\Team_Foto.jpg">
             </div>
             <div class="about-col" id="vorstand-list">
                 <ul>
