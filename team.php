@@ -20,15 +20,16 @@
     <?php include('includes/header.php'); ?>
         <div class="text-box">
             <h1>Mein Team</h1>
-            <p><br></p>
+            <p>Über mich & mein Team</p>
         </div>
     </section>
 
     <section id="about" class="about">
         <h1></h1>
-        <div class="row">
-            <div class="about-col" id="about-col">
-                <h4></h4><br>
+        <div class="container">
+                <img src= "img\Foto_Franz_Stumbeck.jpg">
+                </div>
+        <div class="container">
                 <img src= "img\Team_Foto.jpg">
             </div>
             <div class="about-col" id="vorstand-list">
