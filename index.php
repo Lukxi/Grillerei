@@ -45,8 +45,8 @@
                     </div>
                 </div>
                 <div>
-                    <div class="about-col">
-                        <p id="button-weber">Weber-Promo Grillen buchen!</p>
+                    <div class="about-col-buttons">
+                        <p id="button-weber">Weber-Promo buchen!</p>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="about-col">
+                    <div class="about-col-buttons">
                         <p id="button-weber">Event-Grillen buchen!</p>
                     </div>
                 </div>
@@ -71,26 +71,11 @@
                     </div>
                 </div>
                 <div>
-                    <div class="about-col">
+                    <div class="about-col-buttons">
                         <p id="button-weber">Show-Grillen buchen!</p>
                     </div>
                 </div>
             </div>
-            <!--
-            <div class="about-col">
-                <img src="img/events.png" >
-                <div class="layer">
-                    <h3>Event-Grillen</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, di cumque aut tempore explicabo numquam, repellat enim eaque eos?</p>
-                </div>
-            </div>
-            <div class="about-col">
-                <img src="img/events.png">
-                <div class="layer">
-                    <h3>Show-Grillen</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, di cumque aut tempore explicabo numquam, repellat enim eaque eos?</p>
-                </div>
-            </div> -->
         </div>
     </section>
 
@@ -123,7 +108,9 @@
         /*Angebote Höhe Handy*/
         window.addEventListener('load', () => {
             const aboutCols = document.querySelectorAll('.about-col-weber');
+            const aboutCol = document.querySelectorAll('.about-col-buttons');
             let maxHeight = 0;
+            let maxHeightWeber = 0;
 
             // Finde die maximale Höhe
             aboutCols.forEach(col => {
@@ -132,10 +119,19 @@
                     maxHeight = height;
                 }
             });
+            aboutCol.forEach(cols => {
+                const height = cols.offsetHeight;
+                if (height > maxHeight) {
+                    maxHeightWeber = height;
+                }
+            });
 
             // Setze alle divs auf die maximale Höhe
             aboutCols.forEach(col => {
                 col.style.height = maxHeight + 'px';
+            });
+            aboutCol.forEach(cols => {
+                cols.style.height = maxHeightWeber + 'px';
             });
         });
         /*Angebote Höhe Handy*/
