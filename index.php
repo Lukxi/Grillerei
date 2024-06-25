@@ -83,15 +83,26 @@
     <div class="slideshow-container" id="slideshow-container">
         <div class="mySlides fadeSlider">
             <img class="slideImg" src="KarusellImg/Karusell1.jpg">
+            <div class="slideText">
+                <p>Promo-Grillen in Regensburg</p>
+            </div>
         </div>
         <div class="mySlides fadeSlider" >
             <img class="slideImg" src="KarusellImg/Karusell2.jpg">
+            <div class="slideText">
+                <p>Event-Grillen in Plattling</p>
+            </div>
         </div>
         <div class="mySlides fadeSlider" >
             <img class="slideImg" src="KarusellImg/Karusell3.jpg">
+            <div class="slideText">
+                <p>Show-Grillen in Deggendorf</p>
+            </div>
         </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="prev-next">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
 
         <div class="sliderDots" style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span>
@@ -188,7 +199,7 @@
             for (i = 0; i < dots.length; i++) {
                 dots[i].className = dots[i].className.replace(" active", "");
             }
-            slides[slideIndex - 1].style.display = "block";
+            slides[slideIndex - 1].style.display = "flex";
             dots[slideIndex - 1].className += " active";
         }
         // Auto Slide
@@ -209,10 +220,10 @@
             }
             slideIndex++;
             if (slideIndex > slides.length) { slideIndex = 1 }
-            slides[slideIndex - 1].style.display = "block";
+            slides[slideIndex - 1].style.display = "flex";
             dots[slideIndex - 1].className += " active";
             if (autoSlide) {
-                setTimeout(showSlidesAuto, 5000);
+                setTimeout(showSlidesAuto, 500000);
             }
         }
 
