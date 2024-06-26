@@ -97,6 +97,9 @@ a{
 .about ul{
 }
 
+.about #Liste li {
+    list-style-type: disc; 
+}
 
 
 /*About Media Querry---------------------------*/
