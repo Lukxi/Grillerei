@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.grillerei-stumbeck.de/</loc>
+        <lastmod>2024-06-26</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://www.grillerei-stumbeck.de/index.php</loc>
+        <lastmod>2024-06-26</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.grillerei-stumbeck.de/index.php#about</loc>
+        <lastmod>2024-06-26</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.grillerei-stumbeck.de/index.php#kontakt</loc>
+        <lastmod>2024-06-26</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.grillerei-stumbeck.de/appetitmacher.php</loc>
+        <lastmod>2024-06-26</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.grillerei-stumbeck.de/team.php</loc>
+        <lastmod>2024-06-26</lastmod>
+        <priority>0.80</priority>
+    </url>
+</urlset>

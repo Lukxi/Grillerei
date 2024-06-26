@@ -2,9 +2,10 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Buchen Sie ihren Promo-,Show- und Event-Griller Franz Stumbeck.">   //SEO
-    <title>Grillerei mit Herz und Glut</title>
-    <title>Grillerei mit Herz und Glut</title>
+    <meta name="description" content="Buchen Sie ihren Promo-,Show- und Event-Griller Franz Stumbeck.">
+    <meta name="keywords" content="Grillerei, Stumbeck, Grillschule, Schow-Grillen, Event-Grillen, Weber Grillkurse, Promogrillen">
+    <link rel="icon" href="https://www.deinegrillschule.de/favicon.ico" type="image/x-icon">
+    <title>Grillerei Stumbeck</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="AngeboteSlideshow.css">
     <link rel="stylesheet" href="nav.css">
@@ -30,8 +31,8 @@
             <h1>Grillerei mit Herz und Glut</h1>
             <p></p>
             <div class="btns">
-                <a href="#member" class="hero-btn" id="left">Zu den Angeboten</a>
-                <a href="#member" class="hero-btn" id="right">Kontakt</a>
+                <a href="#about" class="hero-btn" id="left">Zu den Angeboten</a>
+                <a href="#kontakt" class="hero-btn" id="right">Kontakt</a>
             </div>
         </div>
     </section>
