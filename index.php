@@ -84,7 +84,7 @@
         <div class="mySlides fadeSlider">
             <img class="slideImg" src="KarusellImg/Karusell1.jpg">
             <div class="slideText">
-                <p>Promo-Grillen in Regensburg</p>
+                <p>Promo-Grillen in Regensburgen</p>
             </div>
         </div>
         <div class="mySlides fadeSlider" >
