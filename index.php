@@ -2,8 +2,11 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Buchen Sie ihren Promo-,Show- und Event-Griller Franz Stumbeck.">   //SEO
+    <title>Grillerei mit Herz und Glut</title>
     <title>Grillerei mit Herz und Glut</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="AngeboteSlideshow.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +22,7 @@
 </head>
 <body>
     <div class="fade-Logo" id="fadeLogo" >
-        <img src="img/blacklogo.png">
+        <img src="img/blacklogo.png" alt="Logo">
     </div>
 
 <?php include('includes/header.php'); ?>
@@ -34,45 +37,45 @@
     </section>
 
     <section id="about" class="about">
-        <h1>Über uns</h1>
+        <h2>Über uns</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla a sapiente repellat soluta dignissimos accusantium reprehenderit quia? Illo enim voluptatem, corporis doloribus error neque! Inventore amet voluptatibus quaerat consectetur sit.</p>
         <div class="row">
-            <div class="about-col-weber">
-                <div class="weber-kurse" id="weber-kurse">
-                    <img src="img/events.png">
-                    <div class="weber-layer">
+            <div class="about-col">
+                <div class="courses">
+                    <img src="img/events.png" alt="Weber-Promo-Grillen buchen">
+                    <div class="layer">
                         <h3>Weber-Promo</h3>
                     </div>
                 </div>
                 <div>
                     <div class="about-col-buttons">
-                        <p id="button-weber">Weber-Promo buchen!</p>
+                        <p id="course-button">Weber-Promo buchen!</p>
                     </div>
                 </div>
             </div>
-            <div class="about-col-weber">
-                <div class="weber-kurse" id="weber-kurse">
-                    <img src="KarusellImg/Karusell1.jpg">
-                    <div class="weber-layer">
+            <div class="about-col">
+                <div class="courses">
+                    <img src="KarusellImg/Karusell1.jpg" alt="Event-Grillen buchen">
+                    <div class="layer">
                         <h3>Event-Grillen</h3>
                     </div>
                 </div>
                 <div>
                     <div class="about-col-buttons">
-                        <p id="button-weber">Event-Grillen buchen!</p>
+                        <p id="course-button">Event-Grillen buchen!</p>
                     </div>
                 </div>
             </div>
-            <div class="about-col-weber">
-                <div class="weber-kurse" id="weber-kurse">
-                    <img src="KarusellImg/Karusell2.jpg" class="angebot-img">
-                    <div class="weber-layer">
+            <div class="about-col">
+                <div class="courses">
+                    <img src="KarusellImg/Karusell2.jpg" class="angebot-img" alt="Show-Grillen buchen">
+                    <div class="layer">
                         <h3>Show-Grillen</h3>
                     </div>
                 </div>
                 <div>
                     <div class="about-col-buttons">
-                        <p id="button-weber">Show-Grillen buchen!</p>
+                        <p id="course-button">Show-Grillen buchen!</p>
                     </div>
                 </div>
             </div>
@@ -82,19 +85,19 @@
 
     <div class="slideshow-container" id="slideshow-container">
         <div class="mySlides fadeSlider">
-            <img class="slideImg" src="KarusellImg/Karusell1.jpg">
+            <img class="slideImg" src="KarusellImg/Karusell1.jpg" alt="Promo-Grillen in Regensburg">
             <div class="slideText">
-                <p>Promo-Grillen in Regensburgen</p>
+                <p>Promo-Grillen in Regensburg</p>
             </div>
         </div>
         <div class="mySlides fadeSlider" >
-            <img class="slideImg" src="KarusellImg/Karusell2.jpg">
+            <img class="slideImg" src="KarusellImg/Karusell2.jpg" alt="Event-Grillen in Plattling">
             <div class="slideText">
                 <p>Event-Grillen in Plattling</p>
             </div>
         </div>
         <div class="mySlides fadeSlider" >
-            <img class="slideImg" src="KarusellImg/Karusell3.jpg">
+            <img class="slideImg" src="KarusellImg/Karusell3.jpg" alt="Show-Grillen in Deggendorf">
             <div class="slideText">
                 <p>Show-Grillen in Deggendorf</p>
             </div>
@@ -118,7 +121,7 @@
 
         /*Angebote Höhe Handy*/
         window.addEventListener('load', () => {
-            const aboutCols = document.querySelectorAll('.about-col-weber');
+            const aboutCols = document.querySelectorAll('.about-col');
             const aboutCol = document.querySelectorAll('.about-col-buttons');
             let maxHeight = 0;
             let maxHeightWeber = 0;
@@ -223,7 +226,7 @@
             slides[slideIndex - 1].style.display = "flex";
             dots[slideIndex - 1].className += " active";
             if (autoSlide) {
-                setTimeout(showSlidesAuto, 500000);
+                setTimeout(showSlidesAuto, 5000);
             }
         }
 
