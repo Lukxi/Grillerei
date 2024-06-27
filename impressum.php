@@ -61,30 +61,37 @@
         <p>Die auf dieser Webseite verwendeten Bilder stammen entweder von mir selbst oder sind lizenzfrei und wurden von folgenden Plattformen bezogen:</p>
         <p>Pixabay</p>
         <p>Unsplash</p>
+        <br>
         <h5>Datenschutz - Datenschutzerklärung:</h5>
         <p>Verantwortlicher:</p><br>
         <p>Verantwortlicher für die Datenverarbeitung auf dieser Website ist: Franz Stumbeck</p>
+        <br>
         <h5>Erhebung und Speicherung personenbezogener Daten sowie Art und Zweck der Verwendung:</h5>
         <p>Wenn sie das Kontakformular auf meiner Website nutzen, erhebe ich folgende personenbezogene Daten:</p>
         <p>Name (Vorname, Nachname, Anrede)</p>
         <p>E-Mail-Adresse</p>
         <p>Diese Daten werden ausschließlich verwerndet, um ihre Anfrage zu bearbeiten. Die Datenverarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO,</p>
         <p>der die Verarbeitung von Daten zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen gestattet.</p>
+        <br>
         <h5> Weitergabe von Daten:</h5>
         <p>Eine Übermittlung ihrer persönlichern Daten an Dritte findet nicht statt, es sei denn, ich bin gesetzlich dazu verpflichtet oder sie haben ausdrücklich eingewilligt.</p>
+        <br>
         <h5>Rechte der betroffenen Person:</h5>
-        <p>Sie haben das Recht:</p>
+        <p>Sie haben das Recht:</p><ul id= "Liste">
         <p><li>gemäß Art. 15 DSGVO Auskunft über deine von  uns verarbeiteten personenebezogenen Daten zu verlangen.</li></p>
         <p><li>gemäß Art. 16 DSGVO unverzüglich die Berechtigung unrichtiger oder Vervollständigung deiner bei uns gespeicherten personenbezogenen Daten zu verlangen.</p></li>
         <p><li>gemäß Art. 18 DSGVO die Einschränkung der Verarbeitung deiner personenbezogenen Daten zu verlangen.</p></li>
         <p><li>gemäß Art. 20 DSGVO deine personenbezogenen Daten in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen.</p></li>
         <p><li>gemäß Art. 7 Abs. 3 DSGVO deine einmal erteilte Einwilligung jederzeit gegenüber uns zu widerrufen.</p></li>
-        <p><li>gemäß Art. 77 DSGVO sich bei einer Aufsichtsbehörde zu beschweren.</p></li>
+        <p><li>gemäß Art. 77 DSGVO sich bei einer Aufsichtsbehörde zu beschweren.</p></li></ul>
+        <br>
         <h5>Datensicherheit:</h5>
         <p>Wir verwenden geeignete technische und organisatorische Sicherheitsmaßnahmen, um ihre Daten gegen zufällige oder vorsätzliche Manipulationen, teilweisen oder vollständigen Verlust,</p>
         <p>Zerstörung oder gegen den unbefugten Zugriff Dritter zu schützen.</p>
-        <h5>Aktualität und Änderung dieser Datenschutzerklärung</h5>
-        <p>Diese Datenschutzerklärung ist aktuell gültig und hat den Stand Juni 2024. Durch die Weiterentwicklung unserer Website und Angebote darüber oder aufgrund geänderter gesetzlicher beziehungsweise behördlicher Vorgaben kann es notwendig werden, diese Datenschutzerklärung zu ändern.</p>
+        <br>
+        <h5>Aktualität und Änderung dieser Datenschutzerklärung:</h5>
+        <p>Diese Datenschutzerklärung ist aktuell gültig und hat den Stand Juni 2024. Durch die Weiterentwicklung unserer Website und Angebote darüber</p>
+        <p> oder aufgrund geänderter gesetzlicher beziehungsweise behördlicher Vorgaben kann es notwendig werden, diese Datenschutzerklärung zu ändern.</p>
         <br> 
 
     </section>

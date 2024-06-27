@@ -20,7 +20,7 @@
     <?php include('includes/header.php'); ?>
         <div class="text-box">
             <h1>Mein Team</h1>
-            <p><br></p>
+            <p>Über mich und mein Team</p>
         </div>
     </section>
 
