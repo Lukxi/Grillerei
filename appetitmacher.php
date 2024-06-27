@@ -37,73 +37,73 @@
         <p>Hier kannst du auch einen Filter auswählen</p>
 
         
-        <div id="nanogallery2">gallery_made_with_nanogallery2</div>
+    <div id="nanogallery2">gallery_made_with_nanogallery2</div>
 
-    <script>
-        jQuery(document).ready(function () {
-            function initNanogallery() {
-            var fontSize = window.innerWidth <= 767 ? '0.8em' : '1.2em'; // Smaller font size for mobile devices
-            jQuery("#nanogallery2").nanogallery2({
-                thumbnailWidth:   'auto',
-                thumbnailHeight:  300,
-                thumbnailBorderVertical: 0,
-                thumbnailBorderHorizontal: 0,
-                thumbnailGutterWidth: 5,
-                thumbnailGutterHeight: 5,
-                thumbnailLabel: {
-                  "position": "overImageOnBottom",
-                  "display": false
-                },
-                gallerySorting: "titleasc",
-                galleryFilterTags: true,
-                navigationFontSize: fontSize,
+        <script>
+            jQuery(document).ready(function () {
+                function initNanogallery() {
+                var fontSize = window.innerWidth <= 767 ? '0.8em' : '1.2em'; // Smaller font size for mobile devices
+                jQuery("#nanogallery2").nanogallery2({
+                    thumbnailWidth:   'auto',
+                    thumbnailHeight:  300,
+                    thumbnailBorderVertical: 0,
+                    thumbnailBorderHorizontal: 0,
+                    thumbnailGutterWidth: 5,
+                    thumbnailGutterHeight: 5,
+                    thumbnailLabel: {
+                    "position": "overImageOnBottom",
+                    "display": false
+                    },
+                    gallerySorting: "titleasc",
+                    galleryFilterTags: true,
+                    navigationFontSize: fontSize,
 
-                thumbnailAlignment: 'right',
-                galleryDisplayTransition: 'slideUp',
-                galleryDisplayTransitionDuration:  500,
-                thumbnailOpenImage: true,
-                kind: 'nano_photos_provider2',
-                dataProvider: 'http://localhost/grillerei/nano_photos_provider2/nano_photos_provider2.php',
-                locationHash: false
+                    thumbnailAlignment: 'right',
+                    galleryDisplayTransition: 'slideUp',
+                    galleryDisplayTransitionDuration:  500,
+                    thumbnailOpenImage: true,
+                    kind: 'nano_photos_provider2',
+                    dataProvider: 'http://localhost/grillerei/nano_photos_provider2/nano_photos_provider2.php',
+                    locationHash: false
+                });
+            }
+
+                // Initialize the gallery
+                initNanogallery();
+
+                // Re-initialize the gallery on window resize
+                jQuery(window).resize(function() {
+                jQuery("#nanogallery2").nanogallery2('destroy'); // Destroy the existing gallery
+                initNanogallery(); // Initialize the gallery again with new font size
+                });
             });
-        }
+            </script>
 
-            // Initialize the gallery
-            initNanogallery();
-
-            // Re-initialize the gallery on window resize
-            jQuery(window).resize(function() {
-            jQuery("#nanogallery2").nanogallery2('destroy'); // Destroy the existing gallery
-            initNanogallery(); // Initialize the gallery again with new font size
-            });
-        });
-        </script>
-
-        </section>
-    
+            </section>
         
-
-    <?php include('includes/footer.php'); ?>
             
 
-    <script>
+        <?php include('includes/footer.php'); ?>
+                
 
-        const toggleBtn= document.querySelector('.toggle_btn');
-        const toggleBtnIcon= document.querySelector('.toggle_btn i');
-        const dropdown= document.querySelector('.dropdown');
+        <script>
 
-        toggleBtn.onclick = function(){
-            dropdown.classList.toggle('open');
-            const isOpen = dropdown.classList.contains('open');
+            const toggleBtn= document.querySelector('.toggle_btn');
+            const toggleBtnIcon= document.querySelector('.toggle_btn i');
+            const dropdown= document.querySelector('.dropdown');
 
-            toggleBtnIcon.classList = isOpen 
-            ? 'fa-solid fa-xmark' 
-            : 'fa-solid fa-bars'
-        }
+            toggleBtn.onclick = function(){
+                dropdown.classList.toggle('open');
+                const isOpen = dropdown.classList.contains('open');
 
-        
+                toggleBtnIcon.classList = isOpen 
+                ? 'fa-solid fa-xmark' 
+                : 'fa-solid fa-bars'
+            }
+
+            
 
 
-    </script>
+        </script>
 </body>
 </html>
