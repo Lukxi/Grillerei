@@ -4,10 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Buchen Sie ihren Promo-,Show- und Event-Griller Franz Stumbeck.">
     <meta name="keywords" content="Grillerei, Stumbeck, Grillschule, Schow-Grillen, Event-Grillen, Weber Grillkurse, Promogrillen">
-    <link rel="icon" href="https://www.deinegrillschule.de/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/logoicon.png" type="image/x-icon">
     <title>Grillerei Stumbeck</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="AngeboteSlideshow.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -86,19 +85,25 @@
 
     <div class="slideshow-container" id="slideshow-container">
         <div class="mySlides fadeSlider">
-            <img class="slideImg" src="KarusellImg/Karusell1.jpg" alt="Promo-Grillen in Regensburg">
+            <div class="slideImgDiv">
+                <img class="slideImg" src="KarusellImg/Karusell1.jpg" alt="Promo-Grillen in Regensburg">
+            </div>
             <div class="slideText">
                 <p>Promo-Grillen in Regensburg</p>
             </div>
         </div>
         <div class="mySlides fadeSlider" >
-            <img class="slideImg" src="KarusellImg/Karusell2.jpg" alt="Event-Grillen in Plattling">
+            <div class="slideImgDiv">
+                <img class="slideImg" src="KarusellImg/Karusell2.jpg" alt="Event-Grillen in Plattling">
+            </div>
             <div class="slideText">
                 <p>Event-Grillen in Plattling</p>
             </div>
         </div>
         <div class="mySlides fadeSlider" >
-            <img class="slideImg" src="KarusellImg/Karusell3.jpg" alt="Show-Grillen in Deggendorf">
+            <div class="slideImgDiv">
+                <img class="slideImg" src="KarusellImg/Karusell3.jpg" alt="Show-Grillen in Deggendorf">
+            </div>
             <div class="slideText">
                 <p>Show-Grillen in Deggendorf</p>
             </div>
@@ -108,7 +113,7 @@
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
 
-        <div class="sliderDots" style="text-align:center">
+        <div class="sliderDots">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
@@ -119,6 +124,19 @@
 
 
     <script>
+
+        const toggleBtn= document.querySelector('.toggle_btn');
+        const toggleBtnIcon= document.querySelector('.toggle_btn i');
+        const dropdown= document.querySelector('.dropdown');
+
+        toggleBtn.onclick = function(){
+            dropdown.classList.toggle('open');
+            const isOpen = dropdown.classList.contains('open');
+
+            toggleBtnIcon.classList = isOpen 
+            ? 'fa-solid fa-xmark' 
+            : 'fa-solid fa-bars'
+        }
 
         /*Angebote Höhe Handy*/
         window.addEventListener('load', () => {
@@ -151,19 +169,6 @@
         });
         /*Angebote Höhe Handy*/
 
-        const toggleBtn= document.querySelector('.toggle_btn');
-        const toggleBtnIcon= document.querySelector('.toggle_btn i');
-        const dropdown= document.querySelector('.dropdown');
-
-        toggleBtn.onclick = function(){
-            dropdown.classList.toggle('open');
-            const isOpen = dropdown.classList.contains('open');
-
-            toggleBtnIcon.classList = isOpen 
-            ? 'fa-solid fa-xmark' 
-            : 'fa-solid fa-bars'
-        }
-
         setTimeout(() => {
             const element = document.getElementById('fadeLogo');
             let opacity = 1;
@@ -176,8 +181,7 @@
                     element.style.display = 'none';
                 }
             }, 30);
-            //document.getElementById('centerText').style.display = 'none';
-        }, 1000);
+        }, 2000);
 
         //Fotokarusell
         var slideIndex = 0;

@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grillerei mit Herz und Glut</title>
+    <title>Grillerei Stumbeck - Impressum</title>
     <link rel="stylesheet" href="impressum.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="footer.css">
