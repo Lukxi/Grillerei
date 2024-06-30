@@ -181,7 +181,7 @@
                     element.style.display = 'none';
                 }
             }, 30);
-        }, 1000);
+        }, 2000);
 
         //Fotokarusell
         var slideIndex = 0;
