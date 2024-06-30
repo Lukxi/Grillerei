@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grillerei Stumbeck - Impressum</title>
+    <title>Grillerei mit Herz und Glut</title>
     <link rel="stylesheet" href="impressum.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="footer.css">
@@ -63,7 +63,7 @@
         <p>Unsplash</p>
         <br>
         <h5>Datenschutz - Datenschutzerklärung:</h5>
-        <p>Verantwortlicher:</p><br>
+        <h5>Verantwortlicher:</h5><br>
         <p>Verantwortlicher für die Datenverarbeitung auf dieser Website ist: Franz Stumbeck</p>
         <br>
         <h5>Erhebung und Speicherung personenbezogener Daten sowie Art und Zweck der Verwendung:</h5>
