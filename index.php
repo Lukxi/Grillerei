@@ -231,7 +231,7 @@
             slides[slideIndex - 1].style.display = "flex";
             dots[slideIndex - 1].className += " active";
             if (autoSlide) {
-                setTimeout(showSlidesAuto, 500000);
+                setTimeout(showSlidesAuto, 5000);
             }
         }
 
