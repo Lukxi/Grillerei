@@ -18,7 +18,6 @@ a{
     background-size: cover;
     position: relative;
 }
-
 /*Text-Box---------------------------*/
 .text-box{
     width: 90%;
@@ -39,7 +38,6 @@ a{
     font-size: 20px;
     color: #fff;
 }
-
 .hero-btn{
     display: inline-block;
     text-decoration: none;
@@ -56,8 +54,6 @@ a{
     background: #f44336;
     transition: 0.5s;
 }
-
-
 /*Hero Media Querry---------------------------*/
 @media(max-width: 992px){
 
@@ -72,7 +68,6 @@ a{
     
 }
 @media(max-width: 576px){
-
 }
 
 /*About---------------------------*/
@@ -108,8 +103,6 @@ a{
         flex-direction: column;
     }
 }
-
-
 /*Member---------------------------*/
 .member{
     margin: 100px auto;
