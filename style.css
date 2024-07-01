@@ -58,10 +58,10 @@ a{
     transition: 0.5s;
 }
 .text-box #left{
-    margin-right: 7%;
+    margin-right: 2%;
 }
 .text-box #right{
-    margin-left: 7%;
+    margin-left: 2%;
 }
 /*Hero Media Querry---------------------------*/
 
