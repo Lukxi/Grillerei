@@ -119,7 +119,7 @@
             <span class="dot" onclick="currentSlide(3)"></span>
         </div>
     </div>
-    <section>
+    <section id="kontakt">
     <h2>Kontaktformular</h2>
     <form action="send_email.php" method="post">
         <label for="name">Name:</label>
