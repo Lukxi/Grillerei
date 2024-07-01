@@ -97,7 +97,7 @@ a{
 
 /*Kurse*/
 .courses {
-    flex: 1;
+    flex: 1;min-height: 50vh;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
@@ -362,6 +362,9 @@ h1{
 @media only screen and (max-width: 300px) {
     .prev, .next, .text {
         font-size: 11px;
+    }
+    .layer{
+        height: 50%;
     }
 
     .dot {

@@ -34,15 +34,13 @@
                 <a href="#kontakt" class="hero-btn" id="right">Kontakt</a>
             </div>
         </div>
-    </section>
 
     <section id="about" class="about">
         <h2>Über uns</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla a sapiente repellat soluta dignissimos accusantium reprehenderit quia? Illo enim voluptatem, corporis doloribus error neque! Inventore amet voluptatibus quaerat consectetur sit.</p>
         <div class="row">
             <div class="about-col">
                 <div class="courses">
-                    <img src="img/events.png" alt="Weber-Promo-Grillen buchen">
+                    <img src="KarusellImg/Karusell1.jpg" alt="Weber-Promo-Grillen buchen">
                     <div class="layer">
                         <h3>Weber-Promo</h3>
                     </div>
@@ -55,7 +53,7 @@
             </div>
             <div class="about-col">
                 <div class="courses">
-                    <img src="KarusellImg/Karusell1.jpg" alt="Event-Grillen buchen">
+                    <img src="KarusellImg/Karusell2.jpg" alt="Event-Grillen buchen">
                     <div class="layer">
                         <h3>Event-Grillen</h3>
                     </div>
@@ -68,7 +66,7 @@
             </div>
             <div class="about-col">
                 <div class="courses">
-                    <img src="KarusellImg/Karusell2.jpg" class="angebot-img" alt="Show-Grillen buchen">
+                    <img src="KarusellImg/Karusell3.jpg" class="angebot-img" alt="Show-Grillen buchen">
                     <div class="layer">
                         <h3>Show-Grillen</h3>
                     </div>
