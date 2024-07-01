@@ -57,12 +57,12 @@
         <p>Facebook: <a href="https://de-de.facebook.com/legal/terms#:~:text=Du%20darfst%20Benutzernamen%20oder%20Passw%C3%B6rter,in%20den%20Plattform%2DNutzungsbedingungen%20festgelegt">Facebook-Nutzungsbedingungen</a></p>
         <p>Instagram: <a href="https://help.instagram.com/581066165581870">Instagram-Nutzungsbedinungen</a></p>
         <br>
-        <h5>Bildnachweise:</h5>
+        <h5 id="daten">Bildnachweise:</h5>
         <p>Die auf dieser Webseite verwendeten Bilder stammen entweder von mir selbst oder sind lizenzfrei und wurden von folgenden Plattformen bezogen:</p>
         <p>Pixabay</p>
         <p>Unsplash</p>
         <br>
-        <h5>Datenschutz - Datenschutzerklärung:</h5>
+        <h5 >Datenschutz - Datenschutzerklärung:</h5>
         <h5>Verantwortlicher:</h5><br>
         <p>Verantwortlicher für die Datenverarbeitung auf dieser Website ist: Franz Stumbeck</p>
         <br>
