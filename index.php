@@ -34,7 +34,7 @@
                 <a href="#kontakt" class="hero-btn" id="right">Kontakt</a>
             </div>
         </div>
-
+</section>
     <section id="about" class="about">
         <h2>Über uns</h2>
         <div class="row">
