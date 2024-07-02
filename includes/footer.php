@@ -11,7 +11,7 @@
                 <p>Eidsberg 32</p>
                 <p>94539 Grafling</p>
                 <p class= "mail">Handy: <a href="tel:+491751976184">175/1976 184</a></p>
-                <h4 class="mail"><a href="mailto:franzstumbeck@gmail.com">franzstumbeck@gmail.com</a></h4>
+                <h4 class="mail"><a href="mailto:info@grillerei-stummbeck.de">info@grillerei-stummbeck.de</a></h4>
             </div>
             <div class="f-col">
                 <h3>Links <div class="underline"><span></span></div></h3>
