@@ -141,7 +141,7 @@ a{
     font-size: 200%;
 }
 
-#course-button {
+#promo-button, #event-button, #show-button {
     display: inline-block;
     background-color: rgb(143, 9, 9);
     color: #fff;
@@ -155,7 +155,7 @@ a{
     cursor: pointer;
     transition: transform 0.3s ease;
 }
-#course-button:hover {
+#promo-button:hover, #event-button:hover, #show-button:hover {
     transform: scale(1.1);
 }
 .about-col, .about-col-buttons{

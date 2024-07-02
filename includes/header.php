@@ -8,7 +8,7 @@
                 <li><a href="appetitmacher.php">Appetitmacher</a></li>
                 <li><a href ="team.php">Team</a></li>
             </ul>
-            <a id="n-btn" href="index.php#kontakt">Kontakt</a>
+            <a id="n-btn" >Kontakt</a>
         </div>
         <div class="toggle_btn"> 
             <i class="fa-solid fa-bars"></i>

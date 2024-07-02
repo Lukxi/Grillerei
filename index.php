@@ -31,7 +31,7 @@
             <p></p>
             <div class="btns">
                 <a href="#about" class="hero-btn" id="left">Zu den Angeboten</a>
-                <a href="#kontakt" class="hero-btn" id="right">Kontakt</a>
+                <a class="hero-btn" id="right">Kontakt</a>
             </div>
         </div>
 </section>
@@ -47,7 +47,7 @@
                 </div>
                 <div>
                     <div class="about-col-buttons">
-                        <p id="course-button">Weber-Promo buchen!</p>
+                        <p href="index.php#kontakt" id="promo-button">Weber-Promo buchen!</p>
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@
                 </div>
                 <div>
                     <div class="about-col-buttons">
-                        <p id="course-button">Event-Grillen buchen!</p>
+                        <a href="index.php#kontakt" id="event-button">Event-Grillen buchen!</a>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
                 </div>
                 <div>
                     <div class="about-col-buttons">
-                        <p id="course-button">Show-Grillen buchen!</p>
+                        <a href="index.php#kontakt" id="show-button">Show-Grillen buchen!</a>
                     </div>
                 </div>
             </div>
@@ -236,6 +236,36 @@
                 setTimeout(showSlidesAuto, 5000);
             }
         }
+
+        //Buttons zu Kontaktformular
+
+        function scrollToTargetAndSetSelect(selectId, selectValue, targetId) {
+            var selectElement = document.getElementById(selectId);
+            selectElement.value = selectValue;
+            const target = document.getElementById(targetId);
+            const offset = window.innerHeight * 0.2;        //Kontaktformular unter header
+            const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+            });
+        }
+        document.getElementById('promo-button').addEventListener('click', function() {
+            scrollToTargetAndSetSelect('option', 'promo-grillen', 'kontakt');
+        });
+        document.getElementById('event-button').addEventListener('click', function() {
+            scrollToTargetAndSetSelect('option', 'event-grillen', 'kontakt');
+        });
+        document.getElementById('show-button').addEventListener('click', function() {
+            scrollToTargetAndSetSelect('option', 'show-grillen', 'kontakt');
+        });
+        document.getElementById('right').addEventListener('click', function() {
+            scrollToTargetAndSetSelect('option', '', 'kontakt');
+        });
+        document.getElementById('n-btn').addEventListener('click', function() {
+            scrollToTargetAndSetSelect('option', '', 'kontakt');
+        });
 
 
 
