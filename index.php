@@ -47,7 +47,7 @@
                 </div>
                 <div>
                     <div class="about-col-buttons">
-                        <p href="index.php#kontakt" id="promo-button">Weber-Promo buchen!</p>
+                        <p id="promo-button">Weber-Promo buchen!</p>
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@
                 </div>
                 <div>
                     <div class="about-col-buttons">
-                        <a href="index.php#kontakt" id="event-button">Event-Grillen buchen!</a>
+                        <p id="event-button">Event-Grillen buchen!</p>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
                 </div>
                 <div>
                     <div class="about-col-buttons">
-                        <a href="index.php#kontakt" id="show-button">Show-Grillen buchen!</a>
+                        <p id="show-button">Show-Grillen buchen!</p>
                     </div>
                 </div>
             </div>
@@ -189,11 +189,11 @@
         var slideIndex = 0;
         var autoSlide = true;
         showSlidesAuto();
-        function plusSlides(n) {
+        function plusSlides(n) {        //Pfeile
             showSlides(slideIndex += n);
             autoSlide = false;
         }
-        function currentSlide(n) {
+        function currentSlide(n) {      //Punkte
             showSlides(slideIndex = n);
             autoSlide = false;
         }
